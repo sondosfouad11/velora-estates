@@ -1,0 +1,218 @@
+.hero {
+  position: relative;
+  background: var(--charcoal);
+}
+
+.tall {
+  height: 210vh;
+}
+
+.stage {
+  position: relative;
+  height: 100vh;
+  height: 100svh;
+  min-height: 640px;
+  overflow: hidden;
+}
+
+.tall .stage {
+  position: sticky;
+  top: 0;
+}
+
+/* Studio backdrop for the model: warm paper by day, slate-blue to charcoal at dusk. */
+.skyDay,
+.skyDusk {
+  position: absolute;
+  inset: 0;
+}
+
+.skyDay {
+  background:
+    radial-gradient(ellipse 70% 55% at 66% 58%, #fbf8f2 0%, transparent 70%),
+    linear-gradient(180deg, #ece6da 0%, #f3efe7 45%, #e3ddd1 100%);
+}
+
+.skyDusk {
+  background:
+    radial-gradient(ellipse 60% 40% at 72% 70%, rgba(214, 135, 84, 0.35) 0%, transparent 70%),
+    linear-gradient(180deg, #2a2f3d 0%, #3d4254 50%, #20211f 100%);
+}
+
+.scene {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.4s var(--ease-out);
+}
+
+.sceneIn {
+  opacity: 1;
+}
+
+.scene canvas {
+  display: block;
+}
+
+.fallback {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 65% 60%;
+}
+
+.layout {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding-top: calc(var(--header-h) + 3.5rem);
+  padding-bottom: var(--s-6);
+  pointer-events: none;
+}
+
+.layout > * {
+  pointer-events: auto;
+}
+
+.copy {
+  align-self: start;
+  max-width: 34rem;
+}
+
+.title {
+  font-size: var(--step-5);
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  color: var(--charcoal);
+}
+
+.lede {
+  max-width: 40ch;
+  margin-top: var(--s-5);
+  font-size: var(--step-1);
+  line-height: 1.6;
+  color: #3d3e3a;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-3);
+  margin-top: var(--s-6);
+}
+
+.search {
+  align-self: end;
+}
+
+.duskCaption {
+  position: absolute;
+  left: var(--gutter);
+  bottom: 18vh;
+  max-width: 30rem;
+  background: transparent;
+  pointer-events: auto;
+}
+
+.duskKicker {
+  font-family: var(--font-display);
+  font-size: var(--step-4);
+  line-height: 1.02;
+  color: var(--ivory);
+}
+
+.duskText {
+  margin-top: var(--s-4);
+  color: #ddd6c9;
+  max-width: 38ch;
+}
+
+.duskLink {
+  display: inline-block;
+  margin-top: var(--s-5);
+  color: var(--ivory);
+  font-weight: 600;
+  text-decoration-color: var(--copper);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.35em;
+}
+
+@media (min-width: 1500px) {
+  .duskCaption {
+    left: calc((100vw - var(--max)) / 2);
+  }
+}
+
+@media (max-width: 760px) {
+  .stage {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+  }
+  .scene {
+    position: relative;
+    height: min(100vw, 54svh);
+    min-height: 300px;
+    order: 2;
+  }
+  .stage {
+    display: flex;
+    flex-direction: column;
+  }
+  .layout {
+    display: contents;
+  }
+  .copy {
+    order: 1;
+    position: relative;
+    padding: calc(var(--header-h) + 3.4rem) var(--gutter) var(--s-4);
+  }
+  .search {
+    order: 3;
+    position: relative;
+    padding: var(--s-2) var(--gutter) var(--s-7);
+    margin-top: 0;
+  }
+  .lede {
+    font-size: 1rem;
+  }
+  .actions a {
+    flex: 1 1 auto;
+  }
+  .hero {
+    background: #ebe5d9;
+  }
+}
+
+/* Phones: the model is interactive. Sideways drags and pinches go to the 3D scene; vertical swipes still scroll the page. */
+@media (max-width: 760px) {
+  .scene :global(div) {
+    touch-action: pan-y !important;
+  }
+  .hint {
+    position: absolute;
+    left: 50%;
+    bottom: calc(var(--s-4) + 1.2rem);
+    z-index: 2;
+    margin: 0;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--charcoal) 82%, transparent);
+    color: var(--ivory);
+    font-size: 0.8125rem;
+    font-weight: 560;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    pointer-events: none;
+    transition: opacity var(--dur-3) var(--ease-out);
+  }
+  .hintGone {
+    opacity: 0;
+  }
+}
+@media (min-width: 761px) {
+  .hint {
+    display: none;
+  }
+}

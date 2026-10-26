@@ -1,0 +1,268 @@
+.h2 {
+  font-size: var(--step-4);
+  line-height: 1.02;
+  max-width: 18ch;
+}
+
+.sectionHead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  align-items: end;
+  gap: var(--s-5) var(--s-7);
+  margin-bottom: var(--s-8);
+}
+
+.sectionLede {
+  max-width: 44ch;
+  color: var(--ink-2);
+}
+
+.headAction {
+  justify-self: end;
+}
+
+/* Featured — evening continues from the hero */
+.featured {
+  padding: var(--section) 0;
+}
+
+.featuredGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-7) var(--s-6);
+  align-items: start;
+}
+
+/* Approach */
+.approach {
+  padding: var(--section) 0;
+}
+
+.approachGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: var(--s-8);
+  align-items: start;
+}
+
+.practices {
+  display: grid;
+  gap: var(--s-5);
+  margin: var(--s-7) 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+/* The three practices are a real sequence (visit → draw → model), so they are numbered. */
+.practices li {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: 0.25rem var(--s-3);
+  padding-top: var(--s-5);
+  border-top: 1px solid var(--rule);
+  counter-increment: step;
+}
+
+.practices li::before {
+  content: counter(step);
+  grid-row: span 2;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--copper-ink);
+}
+
+.practices h3 {
+  font-size: 1.125rem;
+}
+
+.practices p {
+  max-width: 48ch;
+  color: var(--ink-2);
+}
+
+.approachPlan {
+  position: sticky;
+  top: calc(var(--header-h) + 2rem);
+}
+
+.planCaption {
+  margin-top: var(--s-3);
+  font-size: 0.875rem;
+  color: var(--ink-3);
+}
+
+/* Modelled homes */
+.models {
+  padding: 0 0 var(--section);
+}
+
+.modelList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-6);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.modelLink {
+  display: grid;
+  gap: var(--s-3);
+  text-decoration: none;
+  color: inherit;
+}
+
+.modelImage {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: var(--radius-m);
+  background: #e9e3d8;
+}
+
+.modelImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s var(--ease-out);
+}
+
+@media (hover: hover) {
+  .modelLink:hover img {
+    transform: scale(1.04);
+  }
+}
+
+.modelMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--s-3);
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--ink);
+}
+
+.modelName {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+.modelPlace {
+  font-size: 0.875rem;
+  color: var(--ink-3);
+}
+
+.modelNote {
+  color: var(--ink-2);
+}
+
+.modelLink:hover .modelName {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+/* Towns */
+.towns {
+  padding: var(--section) 0;
+  background: var(--ivory-deep);
+}
+
+.townsGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+  gap: var(--s-8);
+  align-items: center;
+}
+
+.townList {
+  display: grid;
+  margin: var(--s-6) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.townList li {
+  padding: var(--s-3) 0;
+  border-top: 1px solid var(--rule-strong);
+}
+
+.townList p {
+  font-size: 0.875rem;
+  color: var(--ink-2);
+}
+
+.townLink {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s-3);
+  text-decoration: none;
+  color: inherit;
+}
+
+.townName {
+  font-weight: 600;
+}
+
+.townLink:hover .townName {
+  text-decoration: underline;
+}
+
+.townCount {
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--copper-ink);
+}
+
+/* Closing */
+.closing {
+  padding: var(--section) 0;
+  border-top: 1px solid var(--rule);
+}
+
+.closingInner {
+  display: grid;
+  gap: var(--s-6);
+  justify-items: start;
+}
+
+.closingTitle {
+  max-width: 22ch;
+  font-size: var(--step-4);
+  line-height: 1.04;
+}
+
+.closingActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-3);
+}
+
+@media (max-width: 1000px) {
+  .sectionHead {
+    grid-template-columns: 1fr;
+    gap: var(--s-4);
+  }
+  .headAction {
+    justify-self: start;
+  }
+  .featuredGrid,
+  .modelList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .approachGrid,
+  .townsGrid {
+    grid-template-columns: 1fr;
+  }
+  .approachPlan {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .featuredGrid,
+  .modelList {
+    grid-template-columns: 1fr;
+  }
+}
