@@ -1,0 +1,99 @@
+.wrap {
+  display: grid;
+  gap: var(--s-4);
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1);
+}
+
+.tab {
+  min-height: 40px;
+  padding: 0 1rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: transparent;
+  font-size: 0.875rem;
+  font-weight: 560;
+  color: var(--ink-2);
+  transition:
+    background-color var(--dur-2) var(--ease-out),
+    color var(--dur-2) var(--ease-out),
+    border-color var(--dur-2) var(--ease-out);
+}
+
+.tab:hover {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.tabOn {
+  background: var(--charcoal);
+  border-color: var(--charcoal);
+  color: var(--ivory);
+}
+
+.tabOn:hover {
+  color: var(--ivory);
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  background:
+    linear-gradient(var(--white), var(--white)) padding-box;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-m);
+  font-family: var(--font-sans);
+}
+
+.room {
+  fill: #fbf9f5;
+  stroke: var(--charcoal);
+  stroke-width: 2;
+}
+
+.outer {
+  fill: none;
+  stroke: var(--charcoal);
+  stroke-width: 7;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--charcoal);
+}
+
+.labelSmall {
+  font-size: 11px;
+  font-weight: 600;
+  fill: var(--charcoal);
+}
+
+.area {
+  font-size: 13px;
+  fill: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.dim line {
+  stroke: var(--copper-ink);
+  stroke-width: 1.4;
+}
+
+.dim text {
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--copper-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.note,
+.empty {
+  font-size: 0.8125rem;
+  color: var(--ink-3);
+}

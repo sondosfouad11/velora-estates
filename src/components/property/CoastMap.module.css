@@ -1,0 +1,172 @@
+.figure {
+  margin: 0;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  background: var(--white);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-m);
+  font-family: var(--font-sans);
+}
+
+.sea {
+  fill: #e6ebe6;
+}
+
+.hatch {
+  stroke: #b9c6c1;
+  stroke-width: 1;
+}
+
+.coast {
+  fill: none;
+  stroke: var(--charcoal);
+  stroke-width: 2.2;
+  stroke-linejoin: round;
+}
+
+.contour {
+  fill: none;
+  stroke: var(--stone-deep);
+  stroke-width: 1;
+}
+
+.road {
+  fill: none;
+  stroke: var(--olive);
+  stroke-width: 1.5;
+  stroke-dasharray: 7 6;
+}
+
+.seaLabel {
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  fill: #7e8d88;
+}
+
+.town {
+  cursor: inherit;
+}
+
+a .town {
+  cursor: pointer;
+}
+
+.townMark {
+  fill: var(--white);
+  stroke: var(--charcoal);
+  stroke-width: 2;
+  transition: fill var(--dur-2) var(--ease-out);
+}
+
+.townLabel {
+  font-size: 19px;
+  font-weight: 600;
+  fill: var(--charcoal);
+  paint-order: stroke;
+  stroke: var(--white);
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
+
+.townCount {
+  font-weight: 500;
+  fill: var(--copper-ink);
+}
+
+a:hover .townMark,
+a:focus-visible .townMark {
+  fill: var(--copper);
+}
+
+a:hover .townLabel,
+a:focus-visible .townLabel {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: none;
+}
+
+.markerHalo {
+  fill: color-mix(in srgb, var(--copper) 22%, transparent);
+  stroke: var(--copper);
+  stroke-width: 1.5;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pulse 2.8s var(--ease-out) infinite;
+}
+
+.markerDot {
+  fill: var(--charcoal);
+  stroke: var(--white);
+  stroke-width: 2.5;
+}
+
+.leader {
+  stroke: var(--charcoal);
+  stroke-width: 1.2;
+}
+
+.markerLabel {
+  font-size: 20px;
+  font-weight: 700;
+  fill: var(--charcoal);
+  paint-order: stroke;
+  stroke: var(--white);
+  stroke-width: 6px;
+}
+
+.north circle {
+  fill: none;
+  stroke: var(--charcoal);
+  stroke-width: 1.2;
+}
+
+.north path {
+  fill: var(--charcoal);
+}
+
+.north text,
+.scale text {
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--charcoal);
+}
+
+.scale path {
+  fill: none;
+  stroke: var(--charcoal);
+  stroke-width: 1.5;
+}
+
+.scale rect {
+  fill: var(--charcoal);
+}
+
+.caption {
+  margin-top: var(--s-3);
+  font-size: 0.8125rem;
+  color: var(--ink-3);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .markerHalo {
+    animation: none;
+  }
+}

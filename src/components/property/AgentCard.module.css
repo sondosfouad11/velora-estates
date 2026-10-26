@@ -1,0 +1,72 @@
+.card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--s-4);
+  align-items: start;
+}
+
+.monogram {
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-m);
+  background:
+    linear-gradient(135deg, transparent calc(50% - 0.5px), var(--rule-strong) 50%, transparent calc(50% + 0.5px)),
+    var(--ivory-deep);
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+.photo {
+  border-radius: var(--radius-m);
+  object-fit: cover;
+}
+
+.text {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.name {
+  font-weight: 650;
+  font-size: 1.05rem;
+}
+
+.name a {
+  text-decoration: none;
+}
+
+.name a:hover {
+  text-decoration: underline;
+}
+
+.role {
+  font-size: 0.875rem;
+  color: var(--ink-3);
+}
+
+.contact {
+  display: grid;
+  gap: 0.2rem;
+  margin: var(--s-2) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.contact li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+  color: var(--ink-3);
+}
+
+.contact a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--ink);
+}
