@@ -1,0 +1,229 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 50;
+  color: var(--ink);
+  transition:
+    transform var(--dur-3) var(--ease-out),
+    background-color var(--dur-3) var(--ease-out),
+    box-shadow var(--dur-3) var(--ease-out);
+}
+
+.solid {
+  background: color-mix(in srgb, var(--ivory) 94%, transparent);
+  backdrop-filter: saturate(1.2) blur(10px);
+  box-shadow: 0 1px 0 var(--rule);
+}
+
+.overHero {
+  background: transparent;
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
+
+.notice {
+  padding: 0.35rem var(--gutter);
+  background: var(--charcoal);
+  color: var(--stone);
+  font-size: 0.75rem;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-5);
+  height: var(--header-h);
+}
+
+.brand {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  display: flex;
+  gap: var(--s-1);
+}
+
+.link {
+  position: relative;
+  padding: 0.6rem 0.85rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Underline drawn from the left, like a dimension line. */
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0.85rem;
+  right: 0.85rem;
+  bottom: 0.35rem;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-3) var(--ease-out);
+}
+
+.link:hover::after,
+.link.active::after {
+  transform: scaleX(1);
+}
+
+.link.active::after {
+  background: var(--copper);
+  height: 2px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+
+.saved {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 44px;
+  padding: 0 0.85rem;
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color var(--dur-2) var(--ease-out), background-color var(--dur-2) var(--ease-out);
+}
+
+.saved:hover,
+.saved.active {
+  border-color: currentColor;
+}
+
+.count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  padding: 0 0.3rem;
+  border-radius: 999px;
+  background: var(--charcoal);
+  color: var(--ivory);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.menuButton {
+  display: none;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: var(--radius-m);
+  background: transparent;
+  color: inherit;
+}
+
+.drawer {
+  position: fixed;
+  inset: 0;
+  top: calc(var(--header-h) + 1.6rem);
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--s-4) var(--gutter) var(--s-6);
+  background: var(--ivory);
+  overflow-y: auto;
+}
+
+.drawerNav {
+  display: grid;
+  gap: var(--s-1);
+}
+
+.drawerLink {
+  display: block;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 6vw, 1.75rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.drawerLink.active {
+  color: var(--olive-deep);
+}
+
+.drawerNote {
+  margin-top: var(--s-5);
+  font-size: 0.8125rem;
+  color: var(--ink-3);
+}
+
+@media (max-width: 880px) {
+  .nav {
+    display: none;
+  }
+  .menuButton {
+    display: grid;
+  }
+  .savedLabel {
+    display: none;
+  }
+  .saved {
+    padding: 0 0.7rem;
+  }
+}
+
+.noticeShort {
+  display: none;
+}
+
+.menuButton,
+.saved {
+  flex-shrink: 0;
+}
+
+/* The drawer opens right under the bar; the header measures itself into --drawer-top. */
+.drawer {
+  top: var(--drawer-top, calc(var(--header-h) + 1.6rem));
+}
+
+@media (max-width: 560px) {
+  .noticeLong {
+    display: none;
+  }
+  .noticeShort {
+    display: inline;
+  }
+}
+
+/* Open menu: flat ivory with no backdrop-filter, so the fixed drawer stays relative to the viewport. */
+.open {
+  background: var(--ivory);
+  box-shadow: 0 1px 0 var(--rule);
+}
+
+/* Small phones: a slightly smaller wordmark keeps the saved and menu buttons on screen. */
+@media (max-width: 420px) {
+  .brand {
+    --wordmark-scale: 0.8;
+    min-width: 0;
+  }
+  .tools {
+    gap: var(--s-1);
+  }
+}

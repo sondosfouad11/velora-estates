@@ -1,0 +1,66 @@
+.button {
+  position: fixed;
+  left: var(--gutter);
+  bottom: calc(var(--gutter) + env(safe-area-inset-bottom));
+  z-index: 45;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid color-mix(in srgb, var(--ivory) 18%, transparent);
+  border-radius: 50%;
+  background: var(--charcoal);
+  color: var(--ivory);
+  box-shadow: 0 8px 24px -10px rgb(0 0 0 / 0.45);
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition:
+    opacity var(--dur-3) var(--ease-out),
+    transform var(--dur-3) var(--ease-out),
+    background-color var(--dur-2) var(--ease-out),
+    color var(--dur-2) var(--ease-out);
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.button:hover {
+  background: var(--charcoal-soft);
+  color: var(--copper);
+}
+
+.button:active {
+  transform: scale(0.94);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+/* Sit above the mobile booking bar on property pages. */
+@media (max-width: 860px) {
+  :global(body:has([data-sticky-bar])) .button {
+    bottom: calc(5.5rem + env(safe-area-inset-bottom));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: opacity var(--dur-2) linear;
+    transform: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .button {
+    width: 44px;
+    height: 44px;
+    left: var(--s-3);
+    bottom: calc(var(--s-3) + env(safe-area-inset-bottom));
+  }
+}
