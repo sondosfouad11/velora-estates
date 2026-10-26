@@ -1,0 +1,232 @@
+.card {
+  position: relative;
+  display: grid;
+  gap: var(--s-4);
+  min-width: 0;
+}
+
+.media {
+  position: relative;
+  border-radius: var(--radius-m);
+  overflow: hidden;
+}
+
+.mediaLink {
+  display: block;
+}
+
+.image {
+  aspect-ratio: 4 / 3;
+}
+
+.image img {
+  transition:
+    opacity var(--dur-4) var(--ease-out),
+    transform 1.2s var(--ease-out);
+}
+
+@media (hover: hover) {
+  .card:hover .image img {
+    transform: scale(1.045);
+  }
+}
+
+.badges {
+  position: absolute;
+  top: var(--s-3);
+  left: var(--s-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1);
+  pointer-events: none;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.55rem;
+  border-radius: var(--radius-s);
+  background: var(--ivory);
+  color: var(--charcoal);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.featured {
+  background: var(--charcoal);
+  color: var(--ivory);
+}
+
+.model {
+  background: var(--olive-deep);
+  color: var(--white);
+}
+
+.fav {
+  position: absolute;
+  top: var(--s-2);
+  right: var(--s-2);
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    'place place'
+    'title price'
+    'specs specs';
+  align-items: baseline;
+  gap: 0.2rem var(--s-4);
+  padding-bottom: var(--s-4);
+  border-bottom: 1px solid var(--rule);
+}
+
+/* The rule under each card draws in on hover — a measured line, not a lift. */
+.card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--ink);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-4) var(--ease-out);
+  pointer-events: none;
+}
+
+@media (hover: hover) {
+  .card:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+.place {
+  grid-area: place;
+  font-size: 0.8125rem;
+  color: var(--ink-3);
+}
+
+.title {
+  grid-area: title;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Whole card is clickable through the title link. */
+.titleLink::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.titleLink:focus-visible {
+  outline: none;
+}
+
+.titleLink:focus-visible::after {
+  outline: 2px solid var(--focus);
+  outline-offset: 4px;
+  border-radius: var(--radius-m);
+}
+
+.price {
+  grid-area: price;
+  font-size: 1rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.specs {
+  grid-area: specs;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin: var(--s-2) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  color: var(--ink-2);
+}
+
+.specs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.specs li:first-child {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* Fav and badges sit above the stretched title link */
+.fav,
+.badges {
+  z-index: 2;
+}
+
+/* List layout */
+.list {
+  grid-template-columns: minmax(220px, 38%) 1fr;
+  gap: var(--s-6);
+  align-items: center;
+}
+
+.list .image {
+  aspect-ratio: 3 / 2;
+}
+
+.list .body {
+  align-self: stretch;
+  align-content: center;
+  padding-block: var(--s-4);
+}
+
+.list .title {
+  font-size: 1.85rem;
+}
+
+@media (max-width: 640px) {
+  .list {
+    grid-template-columns: 1fr;
+    gap: var(--s-4);
+  }
+  .body {
+    grid-template-areas:
+      'place place'
+      'title title'
+      'price price'
+      'specs specs';
+  }
+}
+
+.dark .body {
+  border-color: #3f403b;
+}
+
+.dark::after {
+  background: var(--copper);
+}
+
+.list::after {
+  left: calc(38% + var(--s-6));
+}
+
+@media (max-width: 640px) {
+  .list::after {
+    left: 0;
+  }
+}

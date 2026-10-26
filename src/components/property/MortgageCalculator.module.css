@@ -1,0 +1,122 @@
+.calc {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--s-6);
+  padding: var(--s-6);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-m);
+  background: var(--surface);
+}
+
+.controls {
+  display: grid;
+  gap: var(--s-5);
+}
+
+.control label {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-bottom: var(--s-2);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.control output {
+  font-weight: 500;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.control input[type='range'] {
+  width: 100%;
+  accent-color: var(--charcoal);
+  height: 40px;
+  cursor: pointer;
+}
+
+.result {
+  display: grid;
+  align-content: start;
+  gap: var(--s-4);
+  padding-left: var(--s-6);
+  border-left: 1px solid var(--rule);
+}
+
+.monthly {
+  display: grid;
+  gap: 0.2rem;
+  color: var(--ink-2);
+  font-size: 0.875rem;
+}
+
+.amount {
+  font-family: var(--font-display);
+  font-size: var(--step-4);
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.bar {
+  display: flex;
+  height: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+  background: var(--stone);
+}
+
+.bar span {
+  transition: width var(--dur-3) var(--ease-out);
+}
+
+.barDeposit {
+  background: var(--olive);
+}
+
+.barLoan {
+  background: var(--charcoal);
+}
+
+.breakdown {
+  display: grid;
+  gap: var(--s-2);
+  margin: 0;
+}
+
+.breakdown div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: var(--s-2);
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+
+.breakdown dt {
+  color: var(--ink-2);
+}
+
+.breakdown dd {
+  margin: 0;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.note {
+  grid-column: 1 / -1;
+  font-size: 0.8125rem;
+  color: var(--ink-3);
+}
+
+@media (max-width: 720px) {
+  .calc {
+    grid-template-columns: 1fr;
+    padding: var(--s-5);
+  }
+  .result {
+    padding-left: 0;
+    border-left: 0;
+    padding-top: var(--s-5);
+    border-top: 1px solid var(--rule);
+  }
+}

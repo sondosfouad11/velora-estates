@@ -1,0 +1,43 @@
+.frame {
+  position: relative;
+  overflow: hidden;
+  background: var(--stone);
+}
+
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.03);
+  transition:
+    opacity var(--dur-4) var(--ease-out),
+    transform 1.6s var(--ease-out);
+}
+
+.loaded img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.placeholder {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: var(--s-2);
+  color: var(--ink-2);
+  font-size: 0.8125rem;
+}
+
+.placeholder svg {
+  width: min(140px, 50%);
+  fill: none;
+  stroke: var(--ink-2);
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.accent {
+  stroke: var(--copper-ink);
+}
