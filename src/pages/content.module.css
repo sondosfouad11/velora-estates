@@ -1,0 +1,182 @@
+.page {
+  padding-block: calc(var(--header-h) + 5rem) var(--section);
+}
+
+.head {
+  display: grid;
+  gap: var(--s-5);
+  padding-bottom: var(--s-8);
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: var(--s-8);
+}
+
+.title {
+  font-size: var(--step-5);
+  line-height: 0.98;
+  max-width: 16ch;
+}
+
+.lede {
+  max-width: 52ch;
+  font-size: var(--step-1);
+  color: var(--ink-2);
+}
+
+.h2 {
+  font-size: var(--step-3);
+  line-height: 1.1;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--s-8);
+  align-items: start;
+}
+
+.prose {
+  display: grid;
+  gap: var(--s-4);
+  max-width: var(--measure);
+}
+
+.prose h2 {
+  margin-top: var(--s-6);
+  font-size: var(--step-2);
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+.prose p,
+.prose li {
+  color: var(--ink-2);
+}
+
+.prose ul {
+  display: grid;
+  gap: var(--s-2);
+  padding-left: 1.2rem;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: var(--s-7) var(--s-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.agentCard {
+  display: grid;
+  gap: var(--s-4);
+  padding-top: var(--s-5);
+  border-top: 1px solid var(--ink);
+}
+
+.agentTop {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+}
+
+.agentName {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.agentName a {
+  text-decoration: none;
+}
+
+.agentName a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: var(--ink-3);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tags li {
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 560;
+  color: var(--ink-2);
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin: 0;
+  border-top: 1px solid var(--ink);
+}
+
+.facts div {
+  padding: var(--s-4) 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.facts dt {
+  font-size: 0.8125rem;
+  color: var(--ink-3);
+}
+
+.facts dd {
+  margin: 0.2rem 0 0;
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.notice {
+  padding: var(--s-5);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-m);
+  background: var(--surface);
+  font-size: 0.9375rem;
+  color: var(--ink-2);
+}
+
+.notice strong {
+  color: var(--ink);
+}
+
+.section {
+  margin-top: var(--section);
+}
+
+.contactCard {
+  display: grid;
+  gap: var(--s-5);
+  padding: var(--s-6);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-m);
+  background: var(--surface);
+}
+
+@media (max-width: 900px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Content that follows a PageHero. */
+.body {
+  /* padding-block only: the shorthand would wipe the container's side gutters on phones */
+  padding-block: var(--s-8) var(--section);
+}
