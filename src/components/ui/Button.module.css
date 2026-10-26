@@ -1,0 +1,136 @@
+.button {
+  --btn-bg: var(--charcoal);
+  --btn-fg: var(--ivory);
+  --btn-border: var(--charcoal);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  min-height: 48px;
+  padding: 0 1.4rem;
+  border: 1px solid var(--btn-border);
+  border-radius: var(--radius-m);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-size: 0.95rem;
+  font-weight: 560;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    color var(--dur-2) var(--ease-out),
+    border-color var(--dur-2) var(--ease-out),
+    transform var(--dur-1) var(--ease-out);
+}
+
+/* A fill that rises from the baseline on hover — like ink filling a drawn outline. */
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--btn-hover, var(--olive-deep));
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform var(--dur-3) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .button:hover:not(:disabled)::before {
+    transform: scaleY(1);
+  }
+  .button:hover:not(:disabled) {
+    color: var(--btn-hover-fg, var(--ivory));
+    border-color: var(--btn-hover, var(--olive-deep));
+  }
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.button svg {
+  flex: none;
+  width: 18px;
+  height: 18px;
+}
+
+.primary {
+}
+
+.secondary {
+  --btn-bg: transparent;
+  --btn-fg: var(--ink);
+  --btn-border: var(--ink);
+  --btn-hover: var(--ink);
+  --btn-hover-fg: var(--bg);
+}
+
+.quiet {
+  --btn-bg: transparent;
+  --btn-fg: var(--ink);
+  --btn-border: transparent;
+  --btn-hover: var(--ivory-deep);
+  --btn-hover-fg: var(--ink);
+  padding-inline: 0.75rem;
+}
+
+:global(.on-dark) .quiet {
+  --btn-hover: var(--charcoal-soft);
+  --btn-hover-fg: var(--ivory);
+}
+
+.light {
+  --btn-bg: var(--ivory);
+  --btn-fg: var(--charcoal);
+  --btn-border: var(--ivory);
+  --btn-hover: var(--copper);
+  --btn-hover-fg: var(--charcoal);
+}
+
+.danger {
+  --btn-bg: var(--danger);
+  --btn-fg: var(--white);
+  --btn-border: var(--danger);
+  --btn-hover: #7f2f21;
+}
+
+.sm {
+  min-height: 38px;
+  padding: 0 0.9rem;
+  font-size: 0.875rem;
+}
+
+.lg {
+  min-height: 56px;
+  padding: 0 1.8rem;
+  font-size: 1rem;
+}
+
+.block {
+  display: flex;
+  width: 100%;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

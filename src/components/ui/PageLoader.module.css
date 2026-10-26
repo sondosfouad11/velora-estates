@@ -1,0 +1,55 @@
+.loader {
+  min-height: 60vh;
+  padding-top: calc(var(--header-h) + 2rem);
+}
+
+.line {
+  display: block;
+  height: 1px;
+  margin-inline: var(--gutter);
+  background: var(--ink);
+  transform-origin: left;
+  animation: draw 1.4s var(--ease-inout) infinite;
+}
+
+@keyframes draw {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  70% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+
+.skeleton {
+  display: block;
+  background: linear-gradient(100deg, var(--ivory-deep) 30%, color-mix(in srgb, var(--ivory-deep) 40%, var(--white)) 50%, var(--ivory-deep) 70%);
+  background-size: 300% 100%;
+  border-radius: var(--radius-s);
+  animation: shimmer 1.6s linear infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .line,
+  .skeleton {
+    animation: none;
+  }
+  .line {
+    transform: scaleX(0.4);
+  }
+}

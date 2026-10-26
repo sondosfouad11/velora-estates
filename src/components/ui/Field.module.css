@@ -1,0 +1,138 @@
+.field {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--ink-3);
+}
+
+.control {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-m);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.4;
+  transition:
+    border-color var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.control:hover {
+  border-color: var(--ink-3);
+}
+
+.control:focus-visible {
+  outline: none;
+  border-color: var(--ink);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--copper) 35%, transparent);
+}
+
+.textarea {
+  min-height: 132px;
+  resize: vertical;
+}
+
+.selectWrap {
+  position: relative;
+}
+
+.selectWrap::after {
+  content: '';
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid var(--ink-2);
+  border-bottom: 1.5px solid var(--ink-2);
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+
+.select {
+  appearance: none;
+  padding-right: 2.4rem;
+  cursor: pointer;
+}
+
+.hint {
+  font-size: 0.8125rem;
+  color: var(--ink-3);
+}
+
+.error {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--danger);
+}
+
+.invalid .control {
+  border-color: var(--danger);
+}
+
+.checkField {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 0.75rem;
+  align-items: start;
+}
+
+.checkField .error {
+  grid-column: 2;
+}
+
+.checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0;
+  border: 1px solid var(--ink-2);
+  border-radius: var(--radius-s);
+  background: var(--surface);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.checkbox::after {
+  content: '';
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid var(--ivory);
+  border-bottom: 2px solid var(--ivory);
+  transform: rotate(-45deg) translate(1px, -1px) scale(0);
+  transition: transform var(--dur-2) var(--ease-out);
+}
+
+.checkbox:checked {
+  background: var(--charcoal);
+  border-color: var(--charcoal);
+}
+
+.checkbox:checked::after {
+  transform: rotate(-45deg) translate(1px, -1px) scale(1);
+}
+
+.invalid .checkbox {
+  border-color: var(--danger);
+}
+
+.checkLabel {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+  cursor: pointer;
+}

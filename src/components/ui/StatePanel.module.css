@@ -1,0 +1,48 @@
+.panel {
+  display: grid;
+  justify-items: center;
+  gap: var(--s-3);
+  padding: var(--s-8) var(--s-5);
+  text-align: center;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-l);
+}
+
+.compact {
+  padding: var(--s-6) var(--s-4);
+}
+
+.mark {
+  width: 64px;
+  height: 48px;
+  fill: none;
+  stroke: var(--ink-2);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin-bottom: var(--s-2);
+}
+
+.dim {
+  stroke: var(--copper);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.body {
+  max-width: 46ch;
+  color: var(--ink-2);
+}
+
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-3);
+  margin-top: var(--s-3);
+}

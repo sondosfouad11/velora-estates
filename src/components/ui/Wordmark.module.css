@@ -1,0 +1,28 @@
+.mark {
+  display: inline-flex;
+  align-items: baseline;
+  gap: calc(0.55rem * var(--wordmark-scale, 1));
+  line-height: 1;
+  color: inherit;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: calc(1.55rem * var(--wordmark-scale, 1));
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.rule {
+  align-self: center;
+  width: calc(18px * var(--wordmark-scale, 1));
+  height: 1px;
+  background: var(--copper);
+}
+
+.sub {
+  font-size: calc(0.72rem * var(--wordmark-scale, 1));
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
