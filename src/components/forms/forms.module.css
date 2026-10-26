@@ -1,0 +1,148 @@
+.form {
+  display: grid;
+  gap: var(--s-4);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: var(--s-4);
+}
+
+.formError {
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--radius-m);
+  background: color-mix(in srgb, var(--danger) 10%, var(--white));
+  color: var(--danger);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.fieldError {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--danger);
+}
+
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.times {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.times legend {
+  margin-bottom: 0.4rem;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.times > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.times label {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  min-height: 48px;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-m);
+  background: var(--surface);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--dur-2) var(--ease-out), color var(--dur-2) var(--ease-out);
+}
+
+.times label small {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--ink-3);
+}
+
+.times input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.times label:has(input:focus-visible) {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.times .timeOn {
+  border-color: var(--charcoal);
+  background: var(--charcoal);
+  color: var(--ivory);
+}
+
+.times .timeOn small {
+  color: var(--stone);
+}
+
+.times[aria-invalid='true'] label {
+  border-color: var(--danger);
+}
+
+.result {
+  display: grid;
+  justify-items: start;
+  gap: var(--s-3);
+  padding: var(--s-6) var(--s-5);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-m);
+  background: var(--surface);
+  outline: none;
+}
+
+.result h3 {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  font-weight: 400;
+}
+
+.result p {
+  color: var(--ink-2);
+}
+
+.tick {
+  width: 48px;
+  height: 48px;
+  fill: none;
+  stroke: var(--olive-deep);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.reference {
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.again {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-weight: 600;
+  color: var(--copper-ink);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
