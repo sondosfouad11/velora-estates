@@ -1,0 +1,64 @@
+.page {
+  display: grid;
+  justify-items: start;
+  gap: var(--s-5);
+  min-height: 80vh;
+  align-content: center;
+  padding-block: calc(var(--header-h) + 4rem) var(--section);
+}
+
+.plan {
+  width: min(320px, 80vw);
+  overflow: visible;
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.missing {
+  stroke: var(--copper-ink);
+  stroke-dasharray: 5 5;
+}
+
+.dim {
+  stroke: var(--copper-ink);
+}
+
+.plan text {
+  fill: var(--copper-ink);
+  stroke: none;
+  font: 600 16px var(--font-sans);
+}
+
+.title {
+  font-size: var(--step-5);
+  line-height: 0.98;
+  max-width: 14ch;
+}
+
+.text {
+  max-width: 48ch;
+  font-size: var(--step-1);
+  color: var(--ink-2);
+}
+
+.text code {
+  padding: 0.1rem 0.35rem;
+  border-radius: var(--radius-s);
+  background: var(--ivory-deep);
+  font-size: 0.9em;
+  word-break: break-all;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-3);
+}
+
+.small {
+  font-size: 0.875rem;
+  color: var(--ink-3);
+}
