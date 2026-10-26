@@ -1,0 +1,2799 @@
+[
+ {
+  "id": 13,
+  "slug": "casa-ardesia",
+  "title": "Casa Ardesia",
+  "town": "Valdorsa",
+  "district": "Fonte",
+  "type": "house",
+  "status": "sale",
+  "price": 1650000,
+  "pricePeriod": "total",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "areaSqm": 225,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 44,
+   "url": "/uploads/properties/zinc-roof-house.jpg",
+   "alt": "House with a sweeping single-pitch zinc roof",
+   "credit": "Photo: Expect Best / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-22T11:11:54Z",
+  "updatedAt": "2026-10-22T11:11:54Z",
+  "summary": "A new slate-and-zinc house with a sweeping single-pitch roof, clerestory windows and a net-zero energy design.",
+  "description": "Casa Ardesia takes its name from the dark slate that clads its entrance wall. A single zinc roof rises from the hillside towards the valley, with a ribbon of clerestory windows bringing light deep into the plan.\n\nThe main level holds an open living, dining and kitchen space; three bedrooms are arranged on two half-levels following the slope.\n\nWith rooftop solar, battery storage and a ground-source heat pump, the house is designed to produce as much energy as it uses over a year.",
+  "plotSqm": 2100,
+  "yearBuilt": 2024,
+  "energyRating": "A+",
+  "amenities": [
+   "Net-zero energy design",
+   "Battery storage",
+   "Ground-source heat pump",
+   "Clerestory windows",
+   "Valley views",
+   "EV charger",
+   "Landscaped garden"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 11.04,
+      "h": 4.13
+     },
+     {
+      "name": "Shower room",
+      "x": 11.04,
+      "y": 0,
+      "w": 2.76,
+      "h": 4.13
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 4.13,
+      "w": 5.59,
+      "h": 4.07
+     },
+     {
+      "name": "Dining",
+      "x": 5.59,
+      "y": 4.13,
+      "w": 5.59,
+      "h": 4.07
+     },
+     {
+      "name": "Entry",
+      "x": 11.18,
+      "y": 4.13,
+      "w": 2.62,
+      "h": 4.07
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 8.05,
+      "h": 4.1
+     },
+     {
+      "name": "Bathroom",
+      "x": 8.05,
+      "y": 0,
+      "w": 2.88,
+      "h": 4.1
+     },
+     {
+      "name": "Bath 2",
+      "x": 10.93,
+      "y": 0,
+      "w": 2.87,
+      "h": 4.1
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 4.1,
+      "w": 5.75,
+      "h": 4.1
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 5.75,
+      "y": 4.1,
+      "w": 5.75,
+      "h": 4.1
+     },
+     {
+      "name": "Landing",
+      "x": 11.5,
+      "y": 4.1,
+      "w": 2.3,
+      "h": 4.1
+     }
+    ]
+   }
+  ],
+  "mapX": 67,
+  "mapY": 15.5,
+  "agentId": 6,
+  "agent": {
+   "id": 6,
+   "slug": "luca-benedetti",
+   "name": "Luca Benedetti",
+   "role": "Agent, Private Clients",
+   "phone": "+00 41 555 0106",
+   "email": "luca.benedetti@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 44,
+    "url": "/uploads/properties/zinc-roof-house.jpg",
+    "alt": "House with a sweeping single-pitch zinc roof",
+    "credit": "Photo: Expect Best / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 45,
+    "url": "/uploads/properties/slate-facade.jpg",
+    "alt": "Dark slate facade with a large window",
+    "credit": "Photo: Matt Bango / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 46,
+    "url": "/uploads/properties/roofline-clerestory.jpg",
+    "alt": "Roofline with a clerestory window strip",
+    "credit": "Photo: Matt Bango / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "slug": "villa-seren",
+  "title": "Villa Seren",
+  "town": "Castel Ombra",
+  "district": "Le Vigne",
+  "type": "villa",
+  "status": "rent",
+  "price": 14500,
+  "pricePeriod": "month",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "areaSqm": 320,
+  "featured": true,
+  "published": true,
+  "modelVariant": "seren",
+  "agentName": null,
+  "coverImage": {
+   "id": 9,
+   "url": "/uploads/properties/courtyard-pool.jpg",
+   "alt": "Courtyard pool between pale stone walls with climbing plants",
+   "credit": "Photo: Jason Briscoe / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-20T13:11:54Z",
+  "updatedAt": "2026-10-20T13:11:54Z",
+  "summary": "A single-storey courtyard villa among the vineyards, with deep stone loggias, a walled garden and a long reflecting pool.",
+  "description": "Villa Seren is a low, single-storey house wrapped around a walled courtyard, built in local stone with deep loggias that keep the rooms cool through the summer. Every bedroom opens directly onto the courtyard garden and its long reflecting pool.\n\nThe living wing has a stone fireplace, a library corner and a kitchen with a separate pantry; the bedroom wing holds four suites, each with its own bathroom.\n\nAvailable furnished for lets of six months or more. Utilities and garden maintenance can be included by arrangement.",
+  "plotSqm": 4200,
+  "yearBuilt": 2019,
+  "energyRating": "B",
+  "amenities": [
+   "Courtyard pool",
+   "Walled garden",
+   "Fully furnished",
+   "Stone fireplace",
+   "Vineyard views",
+   "Garden maintenance available",
+   "Private parking",
+   "Fibre broadband"
+  ],
+  "floorPlan": [
+   {
+    "label": "Main level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 8.52,
+      "h": 6.89
+     },
+     {
+      "name": "Dining",
+      "x": 8.52,
+      "y": 0,
+      "w": 4.26,
+      "h": 6.89
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 12.78,
+      "y": 0,
+      "w": 4.26,
+      "h": 6.89
+     },
+     {
+      "name": "Bathroom",
+      "x": 17.04,
+      "y": 0,
+      "w": 2.13,
+      "h": 6.89
+     },
+     {
+      "name": "Bath 3",
+      "x": 19.17,
+      "y": 0,
+      "w": 2.13,
+      "h": 6.89
+     },
+     {
+      "name": "Entry",
+      "x": 21.3,
+      "y": 0,
+      "w": 2,
+      "h": 6.89
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 6.89,
+      "w": 6.04,
+      "h": 6.81
+     },
+     {
+      "name": "Kitchen",
+      "x": 6.04,
+      "y": 6.89,
+      "w": 4.31,
+      "h": 6.81
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 10.35,
+      "y": 6.89,
+      "w": 4.31,
+      "h": 6.81
+     },
+     {
+      "name": "Bedroom 4",
+      "x": 14.66,
+      "y": 6.89,
+      "w": 4.31,
+      "h": 6.81
+     },
+     {
+      "name": "Bath 2",
+      "x": 18.97,
+      "y": 6.89,
+      "w": 2.16,
+      "h": 6.81
+     },
+     {
+      "name": "Bath 4",
+      "x": 21.13,
+      "y": 6.89,
+      "w": 2.17,
+      "h": 6.81
+     }
+    ]
+   }
+  ],
+  "mapX": 44,
+  "mapY": 24.5,
+  "agentId": 3,
+  "agent": {
+   "id": 3,
+   "slug": "sofia-arnaud",
+   "name": "Sofia Arnaud",
+   "role": "Lettings Director",
+   "phone": "+00 41 555 0103",
+   "email": "sofia.arnaud@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 9,
+    "url": "/uploads/properties/courtyard-pool.jpg",
+    "alt": "Courtyard pool between pale stone walls with climbing plants",
+    "credit": "Photo: Jason Briscoe / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 10,
+    "url": "/uploads/properties/lounge-chair-corner.jpg",
+    "alt": "Reading corner with a leather lounge chair and an upright piano",
+    "credit": "Photo: Lauren Mancke / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 11,
+    "url": "/uploads/properties/stone-basin-bath.jpg",
+    "alt": "Bathroom with a stone basin and dark tiled wall",
+    "credit": "Photo: Dan Watson / StockSnap (CC0)",
+    "sortOrder": 2
+   },
+   {
+    "id": 12,
+    "url": "/uploads/properties/cypress-hills.jpg",
+    "alt": "Cypress-lined hills around the estate at dusk",
+    "credit": "Photo: Anton Sulsky / StockSnap (CC0)",
+    "sortOrder": 3
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "slug": "torre-alta-penthouse",
+  "title": "Torre Alta Penthouse",
+  "town": "Riva Celeste",
+  "district": "Porto Nuovo",
+  "type": "penthouse",
+  "status": "rent",
+  "price": 9200,
+  "pricePeriod": "month",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "areaSqm": 176,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 35,
+   "url": "/uploads/properties/terraced-tower.jpg",
+   "alt": "Residential tower with continuous glass balconies",
+   "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-19T14:11:54Z",
+  "updatedAt": "2026-10-19T14:11:54Z",
+  "summary": "The fourteenth-floor penthouse of Torre Alta, with a sea-facing terrace, a palm-shaded lounge and 24-hour concierge.",
+  "description": "Torre Alta is the tallest building in the new Porto Nuovo marina district, and its penthouse occupies the whole of the fourteenth floor. Every room faces the sea through floor-to-ceiling glazing.\n\nThe terrace is laid out for outdoor dining and lounging, with planters of palms and a glass balustrade. Residents share a lounge, gym and a 24-hour concierge desk.\n\nAvailable furnished or unfurnished, minimum six-month lease.",
+  "plotSqm": null,
+  "yearBuilt": 2023,
+  "energyRating": "A",
+  "amenities": [
+   "Sea-facing terrace",
+   "24-hour concierge",
+   "Residents' gym",
+   "Residents' lounge",
+   "Two parking spaces",
+   "Floor-to-ceiling glazing",
+   "Smart home"
+  ],
+  "floorPlan": [
+   {
+    "label": "Penthouse level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 7.75,
+      "h": 5.14
+     },
+     {
+      "name": "Dining",
+      "x": 7.75,
+      "y": 0,
+      "w": 3.87,
+      "h": 5.14
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 11.62,
+      "y": 0,
+      "w": 3.87,
+      "h": 5.14
+     },
+     {
+      "name": "Entry",
+      "x": 15.49,
+      "y": 0,
+      "w": 1.81,
+      "h": 5.14
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 5.14,
+      "w": 5.5,
+      "h": 5.06
+     },
+     {
+      "name": "Kitchen",
+      "x": 5.5,
+      "y": 5.14,
+      "w": 3.93,
+      "h": 5.06
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 9.43,
+      "y": 5.14,
+      "w": 3.93,
+      "h": 5.06
+     },
+     {
+      "name": "Bathroom",
+      "x": 13.36,
+      "y": 5.14,
+      "w": 1.97,
+      "h": 5.06
+     },
+     {
+      "name": "Bath 2",
+      "x": 15.33,
+      "y": 5.14,
+      "w": 1.97,
+      "h": 5.06
+     }
+    ]
+   }
+  ],
+  "mapX": 22.5,
+  "mapY": 68.5,
+  "agentId": 2,
+  "agent": {
+   "id": 2,
+   "slug": "matteo-lind",
+   "name": "Matteo Lind",
+   "role": "Senior Agent, Coastal Homes",
+   "phone": "+00 41 555 0102",
+   "email": "matteo.lind@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 35,
+    "url": "/uploads/properties/terraced-tower.jpg",
+    "alt": "Residential tower with continuous glass balconies",
+    "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 36,
+    "url": "/uploads/properties/palm-view-lounge.jpg",
+    "alt": "Residents' lounge opening to a palm-shaded terrace",
+    "credit": "Photo: World Travel Adventures / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 37,
+    "url": "/uploads/properties/sea-terrace-table.jpg",
+    "alt": "Terrace table and chairs facing a turquoise sea",
+    "credit": "Photo: Skitter Photo / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 1,
+  "slug": "villa-aurelia",
+  "title": "Villa Aurelia",
+  "town": "Capo Lume",
+  "district": "Punta Sera",
+  "type": "villa",
+  "status": "sale",
+  "price": 4850000,
+  "pricePeriod": "total",
+  "bedrooms": 5,
+  "bathrooms": 6,
+  "areaSqm": 412,
+  "featured": true,
+  "published": true,
+  "modelVariant": "aurelia",
+  "agentName": null,
+  "coverImage": {
+   "id": 1,
+   "url": "/uploads/properties/infinity-pool-terrace.jpg",
+   "alt": "Infinity pool edge and stepped terrace overlooking wooded hills",
+   "credit": "Photo: Matt Bango / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-17T15:11:54Z",
+  "updatedAt": "2026-10-17T15:11:54Z",
+  "summary": "A new cliff-top villa of stacked travertine volumes, cantilevered terraces and a 22-metre infinity pool facing the western sea.",
+  "description": "Villa Aurelia sits on the last rise of the Punta Sera headland, arranged as two long travertine volumes that slide past each other to frame the horizon. The lower level opens entirely to the pool terrace through floor-to-ceiling sliding glass; the upper level holds four bedroom suites behind a screen of oak louvres that filter the afternoon light.\n\nThe principal suite occupies the cantilevered western end, with a private terrace that reaches out over the garden. A 22-metre infinity pool runs the length of the lower terrace, edged in honed limestone and planted with olive trees and cypress.\n\nCompleted in 2024 with geothermal heating, solar glazing and a home automation system, the house is ready to move into.",
+  "plotSqm": 2600,
+  "yearBuilt": 2024,
+  "energyRating": "A",
+  "amenities": [
+   "Infinity pool",
+   "Sea views",
+   "Geothermal heating",
+   "Solar glazing",
+   "Home automation",
+   "Two-car garage",
+   "Olive grove",
+   "Outdoor kitchen",
+   "Wine cellar",
+   "Guest suite"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 12.47,
+      "h": 5.53
+     },
+     {
+      "name": "Guest bedroom",
+      "x": 12.47,
+      "y": 0,
+      "w": 6.23,
+      "h": 5.53
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 5.53,
+      "w": 6.3,
+      "h": 5.47
+     },
+     {
+      "name": "Dining",
+      "x": 6.3,
+      "y": 5.53,
+      "w": 6.3,
+      "h": 5.47
+     },
+     {
+      "name": "Shower room",
+      "x": 12.6,
+      "y": 5.53,
+      "w": 3.15,
+      "h": 5.47
+     },
+     {
+      "name": "Entry",
+      "x": 15.75,
+      "y": 5.53,
+      "w": 2.95,
+      "h": 5.47
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 6.89,
+      "h": 5.73
+     },
+     {
+      "name": "Bedroom 4",
+      "x": 6.89,
+      "y": 0,
+      "w": 4.92,
+      "h": 5.73
+     },
+     {
+      "name": "Bath 2",
+      "x": 11.81,
+      "y": 0,
+      "w": 2.46,
+      "h": 5.73
+     },
+     {
+      "name": "Bath 4",
+      "x": 14.27,
+      "y": 0,
+      "w": 2.46,
+      "h": 5.73
+     },
+     {
+      "name": "Landing",
+      "x": 16.73,
+      "y": 0,
+      "w": 1.97,
+      "h": 5.73
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 5.73,
+      "w": 5.34,
+      "h": 5.27
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 5.34,
+      "y": 5.73,
+      "w": 5.34,
+      "h": 5.27
+     },
+     {
+      "name": "Bathroom",
+      "x": 10.68,
+      "y": 5.73,
+      "w": 2.67,
+      "h": 5.27
+     },
+     {
+      "name": "Bath 3",
+      "x": 13.35,
+      "y": 5.73,
+      "w": 2.67,
+      "h": 5.27
+     },
+     {
+      "name": "Bath 5",
+      "x": 16.02,
+      "y": 5.73,
+      "w": 2.68,
+      "h": 5.27
+     }
+    ]
+   }
+  ],
+  "mapX": 80.5,
+  "mapY": 64,
+  "agentId": 1,
+  "agent": {
+   "id": 1,
+   "slug": "elena-varo",
+   "name": "Elena Varo",
+   "role": "Founding Partner",
+   "phone": "+00 41 555 0101",
+   "email": "elena.varo@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 1,
+    "url": "/uploads/properties/infinity-pool-terrace.jpg",
+    "alt": "Infinity pool edge and stepped terrace overlooking wooded hills",
+    "credit": "Photo: Matt Bango / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 2,
+    "url": "/uploads/properties/sea-view-pool.jpg",
+    "alt": "Pool terrace with a view across the open sea",
+    "credit": "Photo: Matt Moloney / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 3,
+    "url": "/uploads/properties/oak-suite-bedroom.jpg",
+    "alt": "Bedroom suite lined in warm oak with a full-height curtained window",
+    "credit": "Photo: World Travel Adventures / StockSnap (CC0)",
+    "sortOrder": 2
+   },
+   {
+    "id": 4,
+    "url": "/uploads/properties/open-plan-loft.jpg",
+    "alt": "Open-plan living and dining space with tall windows",
+    "credit": "Photo: Breather / StockSnap (CC0)",
+    "sortOrder": 3
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "slug": "harbour-loft",
+  "title": "Harbour Loft",
+  "town": "Portalba",
+  "district": "Darsena",
+  "type": "apartment",
+  "status": "rent",
+  "price": 3200,
+  "pricePeriod": "month",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "areaSqm": 82,
+  "featured": true,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 21,
+   "url": "/uploads/properties/industrial-windows.jpg",
+   "alt": "Loft space with tall steel-framed windows",
+   "credit": "Photo: Breather / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-14T10:11:54Z",
+  "updatedAt": "2026-10-14T10:11:54Z",
+  "summary": "A one-bedroom loft in a former boatyard, with steel-framed windows, a mezzanine study and the harbour on the doorstep.",
+  "description": "Harbour Loft occupies part of a former boatyard workshop in the Darsena, converted in 2016. Tall steel-framed windows light a single open living space; a steel stair leads to a mezzanine study above the kitchen.\n\nThe bedroom is tucked behind sliding doors at the rear, beside a shower room with a walk-in shower.\n\nOffered unfurnished on a minimum 12-month lease.",
+  "plotSqm": null,
+  "yearBuilt": 2016,
+  "energyRating": "C",
+  "amenities": [
+   "Mezzanine study",
+   "Steel-framed windows",
+   "Bike storage",
+   "Washer-dryer",
+   "Fibre broadband",
+   "Pets considered"
+  ],
+  "floorPlan": [
+   {
+    "label": "Main level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 7.87,
+      "h": 3.25
+     },
+     {
+      "name": "Dining",
+      "x": 7.87,
+      "y": 0,
+      "w": 3.93,
+      "h": 3.25
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 3.25,
+      "w": 4.91,
+      "h": 3.65
+     },
+     {
+      "name": "Kitchen",
+      "x": 4.91,
+      "y": 3.25,
+      "w": 3.5,
+      "h": 3.65
+     },
+     {
+      "name": "Bathroom",
+      "x": 8.41,
+      "y": 3.25,
+      "w": 1.75,
+      "h": 3.65
+     },
+     {
+      "name": "Entry",
+      "x": 10.16,
+      "y": 3.25,
+      "w": 1.64,
+      "h": 3.65
+     }
+    ]
+   }
+  ],
+  "mapX": 34,
+  "mapY": 59.5,
+  "agentId": 3,
+  "agent": {
+   "id": 3,
+   "slug": "sofia-arnaud",
+   "name": "Sofia Arnaud",
+   "role": "Lettings Director",
+   "phone": "+00 41 555 0103",
+   "email": "sofia.arnaud@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 21,
+    "url": "/uploads/properties/industrial-windows.jpg",
+    "alt": "Loft space with tall steel-framed windows",
+    "credit": "Photo: Breather / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 22,
+    "url": "/uploads/properties/loft-living-dining.jpg",
+    "alt": "Open living and dining area with exposed ducts",
+    "credit": "Photo: Breather / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 23,
+    "url": "/uploads/properties/loft-staircase.jpg",
+    "alt": "Steel staircase rising to a mezzanine",
+    "credit": "Photo: Leeroy / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "slug": "casa-lume",
+  "title": "Casa Lume",
+  "town": "Marevento",
+  "district": "Belvedere",
+  "type": "house",
+  "status": "sale",
+  "price": 2150000,
+  "pricePeriod": "total",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "areaSqm": 286,
+  "featured": true,
+  "published": true,
+  "modelVariant": "lume",
+  "agentName": null,
+  "coverImage": {
+   "id": 5,
+   "url": "/uploads/properties/glass-gable-house.jpg",
+   "alt": "Contemporary house with a fully glazed gable and timber cladding",
+   "credit": "Photo: Expect Best / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-11T14:11:54Z",
+  "updatedAt": "2026-10-11T14:11:54Z",
+  "summary": "A two-storey contemporary family house of white render and dark timber, with a glazed gable living room and a garden pool.",
+  "description": "Casa Lume is built around a double-height living room whose glazed gable looks out over the Belvedere gardens towards the bay. The ground floor flows from a family kitchen with a long island into the dining room and onto a covered terrace beside the pool.\n\nUpstairs, four bedrooms share a timber-lined gallery; the principal bedroom has a dressing room, a walk-in shower and a balcony facing the morning sun.\n\nThe house was completed in 2023 to a high energy standard, with heat-pump heating, underfloor cooling and photovoltaic panels on the roof.",
+  "plotSqm": 1100,
+  "yearBuilt": 2023,
+  "energyRating": "A",
+  "amenities": [
+   "Garden pool",
+   "Double-height living room",
+   "Heat pump",
+   "Photovoltaic panels",
+   "Underfloor cooling",
+   "Covered terrace",
+   "Walk-in wardrobe",
+   "EV charger"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 10.4,
+      "h": 4.63
+     },
+     {
+      "name": "Guest bedroom",
+      "x": 10.4,
+      "y": 0,
+      "w": 5.2,
+      "h": 4.63
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 4.63,
+      "w": 5.26,
+      "h": 4.57
+     },
+     {
+      "name": "Dining",
+      "x": 5.26,
+      "y": 4.63,
+      "w": 5.26,
+      "h": 4.57
+     },
+     {
+      "name": "Shower room",
+      "x": 10.52,
+      "y": 4.63,
+      "w": 2.63,
+      "h": 4.57
+     },
+     {
+      "name": "Entry",
+      "x": 13.15,
+      "y": 4.63,
+      "w": 2.45,
+      "h": 4.57
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 9.1,
+      "h": 4.6
+     },
+     {
+      "name": "Bathroom",
+      "x": 9.1,
+      "y": 0,
+      "w": 3.25,
+      "h": 4.6
+     },
+     {
+      "name": "Bath 2",
+      "x": 12.35,
+      "y": 0,
+      "w": 3.25,
+      "h": 4.6
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 4.6,
+      "w": 6.5,
+      "h": 4.6
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 6.5,
+      "y": 4.6,
+      "w": 6.5,
+      "h": 4.6
+     },
+     {
+      "name": "Landing",
+      "x": 13,
+      "y": 4.6,
+      "w": 2.6,
+      "h": 4.6
+     }
+    ]
+   }
+  ],
+  "mapX": 60,
+  "mapY": 45.5,
+  "agentId": 5,
+  "agent": {
+   "id": 5,
+   "slug": "amara-okafor",
+   "name": "Amara Okafor",
+   "role": "Agent, New Developments",
+   "phone": "+00 41 555 0105",
+   "email": "amara.okafor@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 5,
+    "url": "/uploads/properties/glass-gable-house.jpg",
+    "alt": "Contemporary house with a fully glazed gable and timber cladding",
+    "credit": "Photo: Expect Best / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 6,
+    "url": "/uploads/properties/family-kitchen.jpg",
+    "alt": "Bright family kitchen with an island and pendant lights",
+    "credit": "Photo: NeONBRAND / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 7,
+    "url": "/uploads/properties/guest-bedroom.jpg",
+    "alt": "Calm bedroom with sheer curtains and soft daylight",
+    "credit": "Photo: Mary Whitney / StockSnap (CC0)",
+    "sortOrder": 2
+   },
+   {
+    "id": 8,
+    "url": "/uploads/properties/terrace-dining.jpg",
+    "alt": "Outdoor dining table on a planted terrace",
+    "credit": "Photo: Jay Mantri / StockSnap (CC0)",
+    "sortOrder": 3
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "slug": "the-cedar-house",
+  "title": "The Cedar House",
+  "town": "Riva Celeste",
+  "district": "Pineta",
+  "type": "house",
+  "status": "rent",
+  "price": 6800,
+  "pricePeriod": "month",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "areaSqm": 210,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 32,
+   "url": "/uploads/properties/cedar-balcony-house.jpg",
+   "alt": "Cedar-clad house with timber balconies",
+   "credit": "Photo: Expect Best / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-08T15:11:54Z",
+  "updatedAt": "2026-10-08T15:11:54Z",
+  "summary": "A cedar-clad family house in the pine woods behind the beach, offered furnished with a planted patio and outdoor lounge.",
+  "description": "The Cedar House sits in a quiet lane of the Pineta, the pine wood that backs Riva Celeste's beach. Cedar boards and deep balconies give the upper floor a light, layered facade.\n\nInside, a sunny living room with a botanical wall opens onto a patio with an outdoor lounge and fire table. Three bedrooms are upstairs, each with a bathroom.\n\nAvailable furnished from next month on a 12-month lease.",
+  "plotSqm": 900,
+  "yearBuilt": 2021,
+  "energyRating": "A",
+  "amenities": [
+   "Furnished",
+   "Outdoor lounge",
+   "Fire table",
+   "Cedar-clad balconies",
+   "Walk to the beach",
+   "Air conditioning",
+   "Private parking"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 10.72,
+      "h": 3.93
+     },
+     {
+      "name": "Shower room",
+      "x": 10.72,
+      "y": 0,
+      "w": 2.68,
+      "h": 3.93
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 3.93,
+      "w": 5.43,
+      "h": 3.87
+     },
+     {
+      "name": "Dining",
+      "x": 5.43,
+      "y": 3.93,
+      "w": 5.43,
+      "h": 3.87
+     },
+     {
+      "name": "Entry",
+      "x": 10.86,
+      "y": 3.93,
+      "w": 2.54,
+      "h": 3.87
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 7.82,
+      "h": 3.9
+     },
+     {
+      "name": "Bathroom",
+      "x": 7.82,
+      "y": 0,
+      "w": 2.79,
+      "h": 3.9
+     },
+     {
+      "name": "Bath 2",
+      "x": 10.61,
+      "y": 0,
+      "w": 2.79,
+      "h": 3.9
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 3.9,
+      "w": 5.58,
+      "h": 3.9
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 5.58,
+      "y": 3.9,
+      "w": 5.58,
+      "h": 3.9
+     },
+     {
+      "name": "Landing",
+      "x": 11.16,
+      "y": 3.9,
+      "w": 2.24,
+      "h": 3.9
+     }
+    ]
+   }
+  ],
+  "mapX": 15,
+  "mapY": 60,
+  "agentId": 3,
+  "agent": {
+   "id": 3,
+   "slug": "sofia-arnaud",
+   "name": "Sofia Arnaud",
+   "role": "Lettings Director",
+   "phone": "+00 41 555 0103",
+   "email": "sofia.arnaud@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 32,
+    "url": "/uploads/properties/cedar-balcony-house.jpg",
+    "alt": "Cedar-clad house with timber balconies",
+    "credit": "Photo: Expect Best / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 33,
+    "url": "/uploads/properties/botanical-living-room.jpg",
+    "alt": "Living room with a botanical wallpaper wall",
+    "credit": "Photo: Dan Gold / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 34,
+    "url": "/uploads/properties/patio-lounge.jpg",
+    "alt": "Patio lounge with an outdoor sofa and planting",
+    "credit": "Photo: Jay Mantri / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "slug": "salt-house-penthouse",
+  "title": "Salt House Penthouse",
+  "town": "Portalba",
+  "district": "Molo Vecchio",
+  "type": "penthouse",
+  "status": "sale",
+  "price": 1890000,
+  "pricePeriod": "total",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "areaSqm": 198,
+  "featured": true,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 13,
+   "url": "/uploads/properties/whitewashed-sea-terrace.jpg",
+   "alt": "Whitewashed terrace stepping down towards the sea",
+   "credit": "Photo: Andrzej / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-05T12:11:54Z",
+  "updatedAt": "2026-10-05T12:11:54Z",
+  "summary": "The top floor of a converted salt warehouse on the old harbour, with a whitewashed wraparound terrace and views across the bay.",
+  "description": "The Salt House was the harbour's storage warehouse for two centuries before its conversion into eight apartments in 2021. The penthouse takes the whole top floor, with exposed roof trusses over a long living and dining room.\n\nA whitewashed terrace wraps around three sides of the apartment, planted with lemon trees in terracotta pots and wide enough for outdoor dining for ten. All three bedrooms have their own bathrooms.\n\nA private lift arrives directly in the apartment, and a secure parking space is included.",
+  "plotSqm": null,
+  "yearBuilt": 2021,
+  "energyRating": "A",
+  "amenities": [
+   "Wraparound terrace",
+   "Sea views",
+   "Private lift",
+   "Secure parking",
+   "Exposed roof trusses",
+   "Air conditioning",
+   "Concierge"
+  ],
+  "floorPlan": [
+   {
+    "label": "Penthouse level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 8.13,
+      "h": 5.19
+     },
+     {
+      "name": "Dining",
+      "x": 8.13,
+      "y": 0,
+      "w": 4.07,
+      "h": 5.19
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 12.2,
+      "y": 0,
+      "w": 4.07,
+      "h": 5.19
+     },
+     {
+      "name": "Bath 3",
+      "x": 16.27,
+      "y": 0,
+      "w": 2.03,
+      "h": 5.19
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 5.19,
+      "w": 5.26,
+      "h": 5.61
+     },
+     {
+      "name": "Kitchen",
+      "x": 5.26,
+      "y": 5.19,
+      "w": 3.76,
+      "h": 5.61
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 9.02,
+      "y": 5.19,
+      "w": 3.76,
+      "h": 5.61
+     },
+     {
+      "name": "Bathroom",
+      "x": 12.78,
+      "y": 5.19,
+      "w": 1.88,
+      "h": 5.61
+     },
+     {
+      "name": "Bath 2",
+      "x": 14.66,
+      "y": 5.19,
+      "w": 1.88,
+      "h": 5.61
+     },
+     {
+      "name": "Entry",
+      "x": 16.54,
+      "y": 5.19,
+      "w": 1.76,
+      "h": 5.61
+     }
+    ]
+   }
+  ],
+  "mapX": 37.5,
+  "mapY": 56,
+  "agentId": 2,
+  "agent": {
+   "id": 2,
+   "slug": "matteo-lind",
+   "name": "Matteo Lind",
+   "role": "Senior Agent, Coastal Homes",
+   "phone": "+00 41 555 0102",
+   "email": "matteo.lind@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 13,
+    "url": "/uploads/properties/whitewashed-sea-terrace.jpg",
+    "alt": "Whitewashed terrace stepping down towards the sea",
+    "credit": "Photo: Andrzej / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 14,
+    "url": "/uploads/properties/long-loft-lounge.jpg",
+    "alt": "Long living room with sofas and steel-framed windows",
+    "credit": "Photo: Breather / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 15,
+    "url": "/uploads/properties/walnut-bedroom.jpg",
+    "alt": "Bedroom with walnut wardrobes and a bedside lamp",
+    "credit": "Photo: Mary Whitney / StockSnap (CC0)",
+    "sortOrder": 2
+   },
+   {
+    "id": 16,
+    "url": "/uploads/properties/lemon-tree-terrace.jpg",
+    "alt": "Lemon tree in a terracotta pot on the terrace wall above the bay",
+    "credit": "Photo: Andrzej / StockSnap (CC0)",
+    "sortOrder": 3
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "slug": "le-onde-7a",
+  "title": "Le Onde, 7A",
+  "town": "Marevento",
+  "district": "Centro",
+  "type": "apartment",
+  "status": "rent",
+  "price": 2450,
+  "pricePeriod": "month",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "areaSqm": 92,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 49,
+   "url": "/uploads/properties/ribbon-balconies.jpg",
+   "alt": "Curving white ribbon balconies on an apartment building",
+   "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-10-02T09:11:54Z",
+  "updatedAt": "2026-10-02T09:11:54Z",
+  "summary": "A seventh-floor apartment in Le Onde, the wave-balconied building in central Marevento, with a long south-facing balcony.",
+  "description": "Le Onde is recognisable from the seafront by its ribbon balconies, which curve in and out along each floor. Apartment 7A has one of the longest, running past the living room and both bedrooms.\n\nThe open kitchen and living space is finished in pale oak, and the bathroom has a walk-in shower. The building has a concierge, bike store and underground parking.\n\nAvailable unfurnished on a 12-month lease.",
+  "plotSqm": null,
+  "yearBuilt": 2019,
+  "energyRating": "B",
+  "amenities": [
+   "Long balcony",
+   "Concierge",
+   "Bike store",
+   "Underground parking",
+   "Lift",
+   "Air conditioning"
+  ],
+  "floorPlan": [
+   {
+    "label": "Main level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 7.14,
+      "h": 3.52
+     },
+     {
+      "name": "Dining",
+      "x": 7.14,
+      "y": 0,
+      "w": 3.57,
+      "h": 3.52
+     },
+     {
+      "name": "Bathroom",
+      "x": 10.71,
+      "y": 0,
+      "w": 1.79,
+      "h": 3.52
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 3.52,
+      "w": 4.53,
+      "h": 3.88
+     },
+     {
+      "name": "Kitchen",
+      "x": 4.53,
+      "y": 3.52,
+      "w": 3.23,
+      "h": 3.88
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 7.76,
+      "y": 3.52,
+      "w": 3.23,
+      "h": 3.88
+     },
+     {
+      "name": "Entry",
+      "x": 10.99,
+      "y": 3.52,
+      "w": 1.51,
+      "h": 3.88
+     }
+    ]
+   }
+  ],
+  "mapX": 61.5,
+  "mapY": 51,
+  "agentId": 5,
+  "agent": {
+   "id": 5,
+   "slug": "amara-okafor",
+   "name": "Amara Okafor",
+   "role": "Agent, New Developments",
+   "phone": "+00 41 555 0105",
+   "email": "amara.okafor@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 49,
+    "url": "/uploads/properties/ribbon-balconies.jpg",
+    "alt": "Curving white ribbon balconies on an apartment building",
+    "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 50,
+    "url": "/uploads/properties/parquet-dining-corner.jpg",
+    "alt": "Dining corner with a round table on a parquet floor",
+    "credit": "Photo: Breather / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 51,
+    "url": "/uploads/properties/sea-watchtower.jpg",
+    "alt": "Stone watchtower above the sea near the town",
+    "credit": "Photo: Sergei Gussev / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "slug": "residenza-celeste-4b",
+  "title": "Residenza Celeste, 4B",
+  "town": "Riva Celeste",
+  "district": "Lungomare",
+  "type": "apartment",
+  "status": "sale",
+  "price": 640000,
+  "pricePeriod": "total",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "areaSqm": 104,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 17,
+   "url": "/uploads/properties/glass-apartment-block.jpg",
+   "alt": "Glass-fronted apartment building with deep balconies",
+   "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-09-28T11:11:54Z",
+  "updatedAt": "2026-09-28T11:11:54Z",
+  "summary": "A fourth-floor seafront apartment in a recent glass-and-stone building, with a deep balcony and herringbone oak floors.",
+  "description": "Apartment 4B faces the promenade from the fourth floor of Residenza Celeste, a 2022 building with shared gardens and a residents' pool. The living room runs the full width of the apartment and opens onto a deep balcony.\n\nThe kitchen is separate but connected by a wide opening, and both bedrooms have en-suite bathrooms. Floors throughout are herringbone oak.\n\nA cellar store and an underground parking space are included in the price.",
+  "plotSqm": null,
+  "yearBuilt": 2022,
+  "energyRating": "A",
+  "amenities": [
+   "Sea-facing balcony",
+   "Residents' pool",
+   "Shared gardens",
+   "Underground parking",
+   "Cellar store",
+   "Herringbone oak floors",
+   "Lift"
+  ],
+  "floorPlan": [
+   {
+    "label": "Main level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 6.71,
+      "h": 3.93
+     },
+     {
+      "name": "Dining",
+      "x": 6.71,
+      "y": 0,
+      "w": 3.35,
+      "h": 3.93
+     },
+     {
+      "name": "Bathroom",
+      "x": 10.06,
+      "y": 0,
+      "w": 1.68,
+      "h": 3.93
+     },
+     {
+      "name": "Entry",
+      "x": 11.74,
+      "y": 0,
+      "w": 1.56,
+      "h": 3.93
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 3.93,
+      "w": 4.77,
+      "h": 3.87
+     },
+     {
+      "name": "Kitchen",
+      "x": 4.77,
+      "y": 3.93,
+      "w": 3.41,
+      "h": 3.87
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 8.18,
+      "y": 3.93,
+      "w": 3.41,
+      "h": 3.87
+     },
+     {
+      "name": "Bath 2",
+      "x": 11.59,
+      "y": 3.93,
+      "w": 1.71,
+      "h": 3.87
+     }
+    ]
+   }
+  ],
+  "mapX": 19.5,
+  "mapY": 63.5,
+  "agentId": 5,
+  "agent": {
+   "id": 5,
+   "slug": "amara-okafor",
+   "name": "Amara Okafor",
+   "role": "Agent, New Developments",
+   "phone": "+00 41 555 0105",
+   "email": "amara.okafor@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 17,
+    "url": "/uploads/properties/glass-apartment-block.jpg",
+    "alt": "Glass-fronted apartment building with deep balconies",
+    "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 18,
+    "url": "/uploads/properties/herringbone-living.jpg",
+    "alt": "Living room with herringbone floor and a blue sofa",
+    "credit": "Photo: Jarosław Ceborski / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 19,
+    "url": "/uploads/properties/bright-dining-nook.jpg",
+    "alt": "Round dining table in a bright white room",
+    "credit": "Photo: Kristin Hardwick / StockSnap (CC0)",
+    "sortOrder": 2
+   },
+   {
+    "id": 20,
+    "url": "/uploads/properties/quiet-bedroom.jpg",
+    "alt": "Minimal bedroom with white linen and a brass lamp",
+    "credit": "Photo: Burst / StockSnap (CC0)",
+    "sortOrder": 3
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "slug": "villa-campanile",
+  "title": "Villa Campanile",
+  "town": "Castel Ombra",
+  "district": "Campanile",
+  "type": "villa",
+  "status": "rent",
+  "price": 11000,
+  "pricePeriod": "month",
+  "bedrooms": 6,
+  "bathrooms": 5,
+  "areaSqm": 455,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 47,
+   "url": "/uploads/properties/stucco-villa-pool.jpg",
+   "alt": "Stucco villa with arched loggias and a lit pool at night",
+   "credit": "Photo: Vita Vilcina / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-09-24T10:11:54Z",
+  "updatedAt": "2026-09-24T10:11:54Z",
+  "summary": "A large stucco and terracotta villa with arched loggias, a lit pool terrace and six bedrooms for long family stays.",
+  "description": "Villa Campanile is a generous family villa in the classic coastal style: rendered walls, terracotta roofs and arched loggias around a large pool terrace that comes alive in the evening.\n\nThe house sleeps twelve across six bedrooms, with a separate staff flat above the garage. Gardens include a lemon orchard, a pizza oven and a bocce court.\n\nAvailable for lets of three months or more, furnished, with weekly cleaning included.",
+  "plotSqm": 6000,
+  "yearBuilt": 2008,
+  "energyRating": "C",
+  "amenities": [
+   "Pool terrace",
+   "Arched loggias",
+   "Lemon orchard",
+   "Pizza oven",
+   "Bocce court",
+   "Staff flat",
+   "Weekly cleaning included",
+   "Furnished"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 13.13,
+      "h": 5.78
+     },
+     {
+      "name": "Guest bedroom",
+      "x": 13.13,
+      "y": 0,
+      "w": 6.57,
+      "h": 5.78
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 5.78,
+      "w": 6.64,
+      "h": 5.72
+     },
+     {
+      "name": "Dining",
+      "x": 6.64,
+      "y": 5.78,
+      "w": 6.64,
+      "h": 5.72
+     },
+     {
+      "name": "Shower room",
+      "x": 13.28,
+      "y": 5.78,
+      "w": 3.32,
+      "h": 5.72
+     },
+     {
+      "name": "Entry",
+      "x": 16.6,
+      "y": 5.78,
+      "w": 3.1,
+      "h": 5.72
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 7.07,
+      "h": 5.75
+     },
+     {
+      "name": "Bedroom 4",
+      "x": 7.07,
+      "y": 0,
+      "w": 5.05,
+      "h": 5.75
+     },
+     {
+      "name": "Bathroom",
+      "x": 12.12,
+      "y": 0,
+      "w": 2.53,
+      "h": 5.75
+     },
+     {
+      "name": "Bath 2",
+      "x": 14.65,
+      "y": 0,
+      "w": 2.53,
+      "h": 5.75
+     },
+     {
+      "name": "Bath 4",
+      "x": 17.18,
+      "y": 0,
+      "w": 2.52,
+      "h": 5.75
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 5.75,
+      "w": 5.05,
+      "h": 5.75
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 5.05,
+      "y": 5.75,
+      "w": 5.05,
+      "h": 5.75
+     },
+     {
+      "name": "Bedroom 5",
+      "x": 10.1,
+      "y": 5.75,
+      "w": 5.05,
+      "h": 5.75
+     },
+     {
+      "name": "Bath 3",
+      "x": 15.15,
+      "y": 5.75,
+      "w": 2.53,
+      "h": 5.75
+     },
+     {
+      "name": "Landing",
+      "x": 17.68,
+      "y": 5.75,
+      "w": 2.02,
+      "h": 5.75
+     }
+    ]
+   }
+  ],
+  "mapX": 42,
+  "mapY": 18.5,
+  "agentId": 6,
+  "agent": {
+   "id": 6,
+   "slug": "luca-benedetti",
+   "name": "Luca Benedetti",
+   "role": "Agent, Private Clients",
+   "phone": "+00 41 555 0106",
+   "email": "luca.benedetti@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 47,
+    "url": "/uploads/properties/stucco-villa-pool.jpg",
+    "alt": "Stucco villa with arched loggias and a lit pool at night",
+    "credit": "Photo: Vita Vilcina / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 48,
+    "url": "/uploads/properties/cliff-village.jpg",
+    "alt": "Hillside village above the sea in late sun",
+    "credit": "Photo: Willian Was / StockSnap (CC0)",
+    "sortOrder": 1
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "slug": "villa-marea",
+  "title": "Villa Marea",
+  "town": "Marevento",
+  "district": "Scogliera",
+  "type": "villa",
+  "status": "sale",
+  "price": 3400000,
+  "pricePeriod": "total",
+  "bedrooms": 5,
+  "bathrooms": 5,
+  "areaSqm": 365,
+  "featured": true,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 28,
+   "url": "/uploads/properties/white-modern-villa.jpg",
+   "alt": "White modern villa with glass balconies and palm trees",
+   "credit": "Photo: Expect Best / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-09-20T08:11:54Z",
+  "updatedAt": "2026-09-20T08:11:54Z",
+  "summary": "A three-level white villa above the Scogliera rocks, with glass balconies on every floor and a landscaped pool garden.",
+  "description": "Villa Marea steps down the Scogliera slope over three levels, each with a glass-fronted balcony facing the sea. The entrance level holds the living room, dining room and kitchen; the garden level opens onto a lawn and a pool lined with sun loungers.\n\nFive bedrooms are split between the top floor and the garden level, which also has a gym and a self-contained guest suite.\n\nThe beach at Cala Marevento is a seven-minute walk down a private path.",
+  "plotSqm": 1900,
+  "yearBuilt": 2018,
+  "energyRating": "B",
+  "amenities": [
+   "Pool garden",
+   "Glass balconies",
+   "Home gym",
+   "Self-contained guest suite",
+   "Sea views",
+   "Private path to the beach",
+   "Lift"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 9.6,
+      "h": 4.22
+     },
+     {
+      "name": "Guest bedroom",
+      "x": 9.6,
+      "y": 0,
+      "w": 4.8,
+      "h": 4.22
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 4.22,
+      "w": 4.85,
+      "h": 4.18
+     },
+     {
+      "name": "Dining",
+      "x": 4.85,
+      "y": 4.22,
+      "w": 4.85,
+      "h": 4.18
+     },
+     {
+      "name": "Shower room",
+      "x": 9.7,
+      "y": 4.22,
+      "w": 2.43,
+      "h": 4.18
+     },
+     {
+      "name": "Entry",
+      "x": 12.13,
+      "y": 4.22,
+      "w": 2.27,
+      "h": 4.18
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 10.61,
+      "h": 4.2
+     },
+     {
+      "name": "Bath 2",
+      "x": 10.61,
+      "y": 0,
+      "w": 3.79,
+      "h": 4.2
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 4.2,
+      "w": 7.58,
+      "h": 4.2
+     },
+     {
+      "name": "Bathroom",
+      "x": 7.58,
+      "y": 4.2,
+      "w": 3.79,
+      "h": 4.2
+     },
+     {
+      "name": "Landing",
+      "x": 11.37,
+      "y": 4.2,
+      "w": 3.03,
+      "h": 4.2
+     }
+    ]
+   },
+   {
+    "label": "Second floor",
+    "rooms": [
+     {
+      "name": "Bedroom 3",
+      "x": 0,
+      "y": 0,
+      "w": 8.31,
+      "h": 3.9
+     },
+     {
+      "name": "Study",
+      "x": 8.31,
+      "y": 0,
+      "w": 6.09,
+      "h": 3.9
+     },
+     {
+      "name": "Bedroom 4",
+      "x": 0,
+      "y": 3.9,
+      "w": 7.2,
+      "h": 4.5
+     },
+     {
+      "name": "Bath 3",
+      "x": 7.2,
+      "y": 3.9,
+      "w": 3.6,
+      "h": 4.5
+     },
+     {
+      "name": "Bath 4",
+      "x": 10.8,
+      "y": 3.9,
+      "w": 3.6,
+      "h": 4.5
+     }
+    ]
+   }
+  ],
+  "mapX": 56,
+  "mapY": 52.5,
+  "agentId": 6,
+  "agent": {
+   "id": 6,
+   "slug": "luca-benedetti",
+   "name": "Luca Benedetti",
+   "role": "Agent, Private Clients",
+   "phone": "+00 41 555 0106",
+   "email": "luca.benedetti@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 28,
+    "url": "/uploads/properties/white-modern-villa.jpg",
+    "alt": "White modern villa with glass balconies and palm trees",
+    "credit": "Photo: Expect Best / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 29,
+    "url": "/uploads/properties/garden-pool-loungers.jpg",
+    "alt": "Pool garden with sun loungers and parasols",
+    "credit": "Photo: World Travel Adventures / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 30,
+    "url": "/uploads/properties/ivory-sofa-lounge.jpg",
+    "alt": "Lounge with an ivory sofa and a chandelier",
+    "credit": "Photo: Kristin Hardwick / StockSnap (CC0)",
+    "sortOrder": 2
+   },
+   {
+    "id": 31,
+    "url": "/uploads/properties/white-lounge.jpg",
+    "alt": "Living room with white leather sofas and an armchair",
+    "credit": "Photo: Kristin Hardwick / StockSnap (CC0)",
+    "sortOrder": 3
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "slug": "casa-ulivo",
+  "title": "Casa Ulivo",
+  "town": "Valdorsa",
+  "district": "Uliveto",
+  "type": "house",
+  "status": "sale",
+  "price": 1280000,
+  "pricePeriod": "total",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "areaSqm": 240,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 24,
+   "url": "/uploads/properties/stone-timber-house.jpg",
+   "alt": "House with stone lower walls and timber-clad upper floor",
+   "credit": "Photo: Expect Best / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-09-12T09:11:54Z",
+  "updatedAt": "2026-09-12T09:11:54Z",
+  "summary": "A stone-and-timber house set in an old olive grove, with a covered veranda that runs the full length of the garden front.",
+  "description": "Casa Ulivo was built in 2020 on the footprint of a ruined olive mill, reusing its stone for the lower walls. Above, the upper floor is clad in larch and set back behind a long covered veranda.\n\nThe ground floor holds an open kitchen and dining room, a sitting room with a wood stove and a guest bedroom; three further bedrooms are upstairs.\n\nThe grove of around 90 olive trees is still harvested each autumn by a local cooperative.",
+  "plotSqm": 3800,
+  "yearBuilt": 2020,
+  "energyRating": "B",
+  "amenities": [
+   "Olive grove",
+   "Covered veranda",
+   "Wood stove",
+   "Rainwater harvesting",
+   "Workshop",
+   "Guest bedroom",
+   "Valley views"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 9.53,
+      "h": 4.22
+     },
+     {
+      "name": "Guest bedroom",
+      "x": 9.53,
+      "y": 0,
+      "w": 4.77,
+      "h": 4.22
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 4.22,
+      "w": 4.82,
+      "h": 4.18
+     },
+     {
+      "name": "Dining",
+      "x": 4.82,
+      "y": 4.22,
+      "w": 4.82,
+      "h": 4.18
+     },
+     {
+      "name": "Shower room",
+      "x": 9.64,
+      "y": 4.22,
+      "w": 2.41,
+      "h": 4.18
+     },
+     {
+      "name": "Entry",
+      "x": 12.05,
+      "y": 4.22,
+      "w": 2.25,
+      "h": 4.18
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 8.34,
+      "h": 4.2
+     },
+     {
+      "name": "Bathroom",
+      "x": 8.34,
+      "y": 0,
+      "w": 2.98,
+      "h": 4.2
+     },
+     {
+      "name": "Bath 2",
+      "x": 11.32,
+      "y": 0,
+      "w": 2.98,
+      "h": 4.2
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 4.2,
+      "w": 5.96,
+      "h": 4.2
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 5.96,
+      "y": 4.2,
+      "w": 5.96,
+      "h": 4.2
+     },
+     {
+      "name": "Landing",
+      "x": 11.92,
+      "y": 4.2,
+      "w": 2.38,
+      "h": 4.2
+     }
+    ]
+   }
+  ],
+  "mapX": 71.5,
+  "mapY": 20,
+  "agentId": 4,
+  "agent": {
+   "id": 4,
+   "slug": "julien-ferro",
+   "name": "Julien Ferro",
+   "role": "Agent, Hill Towns",
+   "phone": "+00 41 555 0104",
+   "email": "julien.ferro@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 24,
+    "url": "/uploads/properties/stone-timber-house.jpg",
+    "alt": "House with stone lower walls and timber-clad upper floor",
+    "credit": "Photo: Expect Best / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 25,
+    "url": "/uploads/properties/veranda-lounge.jpg",
+    "alt": "Covered veranda lounge opening onto the garden",
+    "credit": "Photo: Joshua Ness / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 26,
+    "url": "/uploads/properties/green-dining-bench.jpg",
+    "alt": "Dining table with a green upholstered bench",
+    "credit": "Photo: Burst / StockSnap (CC0)",
+    "sortOrder": 2
+   },
+   {
+    "id": 27,
+    "url": "/uploads/properties/terrace-chairs.jpg",
+    "alt": "Pair of garden chairs on a paved terrace at sunset",
+    "credit": "Photo: Matt Bango / StockSnap (CC0)",
+    "sortOrder": 3
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "slug": "casa-legno",
+  "title": "Casa Legno",
+  "town": "Valdorsa",
+  "district": "Bosco",
+  "type": "house",
+  "status": "sale",
+  "price": 920000,
+  "pricePeriod": "total",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "areaSqm": 168,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 52,
+   "url": "/uploads/properties/timber-house.jpg",
+   "alt": "Timber-clad modern house among trees",
+   "credit": "Photo: Jay Mantri / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-09-06T08:11:54Z",
+  "updatedAt": "2026-09-06T08:11:54Z",
+  "summary": "A compact timber-clad house at the edge of the Valdorsa woods, with a sunny bay-window kitchen and a garden studio.",
+  "description": "Casa Legno is a compact two-storey house clad in charred and natural timber, set at the end of a lane where the valley meets the woods. The kitchen sits in a deep bay window overlooking the garden.\n\nThere are three bedrooms and two bathrooms, plus a separate garden studio currently used as a pottery workshop.\n\nA quiet, practical home within ten minutes' drive of Valdorsa's schools and station.",
+  "plotSqm": 1200,
+  "yearBuilt": 2017,
+  "energyRating": "B",
+  "amenities": [
+   "Garden studio",
+   "Bay-window kitchen",
+   "Timber cladding",
+   "Woodland views",
+   "Wood-burning stove"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 9.52,
+      "h": 3.57
+     },
+     {
+      "name": "Shower room",
+      "x": 9.52,
+      "y": 0,
+      "w": 2.38,
+      "h": 3.57
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 3.57,
+      "w": 4.82,
+      "h": 3.53
+     },
+     {
+      "name": "Dining",
+      "x": 4.82,
+      "y": 3.57,
+      "w": 4.82,
+      "h": 3.53
+     },
+     {
+      "name": "Entry",
+      "x": 9.64,
+      "y": 3.57,
+      "w": 2.26,
+      "h": 3.53
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 7.24,
+      "h": 3.8
+     },
+     {
+      "name": "Bathroom",
+      "x": 7.24,
+      "y": 0,
+      "w": 2.59,
+      "h": 3.8
+     },
+     {
+      "name": "Landing",
+      "x": 9.83,
+      "y": 0,
+      "w": 2.07,
+      "h": 3.8
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 3.8,
+      "w": 5.95,
+      "h": 3.3
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 5.95,
+      "y": 3.8,
+      "w": 5.95,
+      "h": 3.3
+     }
+    ]
+   }
+  ],
+  "mapX": 74.5,
+  "mapY": 25,
+  "agentId": 4,
+  "agent": {
+   "id": 4,
+   "slug": "julien-ferro",
+   "name": "Julien Ferro",
+   "role": "Agent, Hill Towns",
+   "phone": "+00 41 555 0104",
+   "email": "julien.ferro@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 52,
+    "url": "/uploads/properties/timber-house.jpg",
+    "alt": "Timber-clad modern house among trees",
+    "credit": "Photo: Jay Mantri / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 53,
+    "url": "/uploads/properties/bay-window-kitchen.jpg",
+    "alt": "Kitchen sink in a bright bay window",
+    "credit": "Photo: Matt Bango / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 54,
+    "url": "/uploads/properties/sunlit-bedroom.jpg",
+    "alt": "Bedroom with dark wood bed and morning sun on the floor",
+    "credit": "Photo: Jay Mantri / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "slug": "casa-curva",
+  "title": "Casa Curva",
+  "town": "Capo Lume",
+  "district": "Faro",
+  "type": "house",
+  "status": "sale",
+  "price": 2780000,
+  "pricePeriod": "total",
+  "bedrooms": 4,
+  "bathrooms": 4,
+  "areaSqm": 302,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 38,
+   "url": "/uploads/properties/curved-white-house.jpg",
+   "alt": "White house with a curved upper storey and glass balustrades",
+   "credit": "Photo: Expect Best / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-09-01T13:11:54Z",
+  "updatedAt": "2026-09-01T13:11:54Z",
+  "summary": "A white house with a curved upper storey near the Capo Lume lighthouse, built around a double-height gallery living room.",
+  "description": "Casa Curva's rounded upper storey turns the corner of its plot towards the lighthouse, giving the principal bedroom a 180-degree view of the cape. Below, a double-height gallery living room is lit from a clerestory and opens onto a sheltered garden.\n\nThe house has four bedrooms, each with a bathroom, plus a study and a utility room.\n\nCompleted in 2022, it is built to near-passive standards with triple glazing and mechanical ventilation.",
+  "plotSqm": 1400,
+  "yearBuilt": 2022,
+  "energyRating": "A",
+  "amenities": [
+   "Lighthouse views",
+   "Gallery living room",
+   "Triple glazing",
+   "Heat-recovery ventilation",
+   "Study",
+   "Sheltered garden",
+   "Double garage"
+  ],
+  "floorPlan": [
+   {
+    "label": "Ground floor",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 10.67,
+      "h": 4.73
+     },
+     {
+      "name": "Guest bedroom",
+      "x": 10.67,
+      "y": 0,
+      "w": 5.33,
+      "h": 4.73
+     },
+     {
+      "name": "Kitchen",
+      "x": 0,
+      "y": 4.73,
+      "w": 5.39,
+      "h": 4.67
+     },
+     {
+      "name": "Dining",
+      "x": 5.39,
+      "y": 4.73,
+      "w": 5.39,
+      "h": 4.67
+     },
+     {
+      "name": "Shower room",
+      "x": 10.78,
+      "y": 4.73,
+      "w": 2.7,
+      "h": 4.67
+     },
+     {
+      "name": "Entry",
+      "x": 13.48,
+      "y": 4.73,
+      "w": 2.52,
+      "h": 4.67
+     }
+    ]
+   },
+   {
+    "label": "First floor",
+    "rooms": [
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 4.97
+     },
+     {
+      "name": "Bathroom",
+      "x": 8,
+      "y": 0,
+      "w": 2.86,
+      "h": 4.97
+     },
+     {
+      "name": "Bath 2",
+      "x": 10.86,
+      "y": 0,
+      "w": 2.86,
+      "h": 4.97
+     },
+     {
+      "name": "Landing",
+      "x": 13.72,
+      "y": 0,
+      "w": 2.28,
+      "h": 4.97
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 0,
+      "y": 4.97,
+      "w": 6.4,
+      "h": 4.43
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 6.4,
+      "y": 4.97,
+      "w": 6.4,
+      "h": 4.43
+     },
+     {
+      "name": "Bath 3",
+      "x": 12.8,
+      "y": 4.97,
+      "w": 3.2,
+      "h": 4.43
+     }
+    ]
+   }
+  ],
+  "mapX": 76,
+  "mapY": 70,
+  "agentId": 1,
+  "agent": {
+   "id": 1,
+   "slug": "elena-varo",
+   "name": "Elena Varo",
+   "role": "Founding Partner",
+   "phone": "+00 41 555 0101",
+   "email": "elena.varo@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 38,
+    "url": "/uploads/properties/curved-white-house.jpg",
+    "alt": "White house with a curved upper storey and glass balustrades",
+    "credit": "Photo: Expect Best / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 39,
+    "url": "/uploads/properties/gallery-living.jpg",
+    "alt": "Double-height living room with a gallery",
+    "credit": "Photo: Leeroy / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 40,
+    "url": "/uploads/properties/calm-sea-morning.jpg",
+    "alt": "Calm sea and distant headland in early morning light",
+    "credit": "Photo: Donald Tong / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "slug": "via-dei-limoni-2",
+  "title": "Via dei Limoni, Apartment 2",
+  "town": "Castel Ombra",
+  "district": "Borgo",
+  "type": "apartment",
+  "status": "sale",
+  "price": 485000,
+  "pricePeriod": "total",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "areaSqm": 88,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 41,
+   "url": "/uploads/properties/old-town-street.jpg",
+   "alt": "Narrow old-town street with balconies and plants",
+   "credit": "Photo: Roman Kraft / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-08-20T12:11:54Z",
+  "updatedAt": "2026-08-20T12:11:54Z",
+  "summary": "A renovated first-floor apartment in a 1920s townhouse in the old village, with tall shuttered windows and a tiled kitchen.",
+  "description": "This first-floor apartment sits in a 1928 townhouse on Via dei Limoni, one of the stepped lanes of Castel Ombra's old village. It was renovated in 2019, keeping the original ceiling heights, shutters and terracotta floors.\n\nThe kitchen has white tiles, a marble worktop and a window over the lane; two bedrooms and a bathroom sit at the quieter rear of the building.\n\nThe village square, bakery and weekly market are two minutes' walk away.",
+  "plotSqm": null,
+  "yearBuilt": 1928,
+  "energyRating": "D",
+  "amenities": [
+   "Original terracotta floors",
+   "Shuttered windows",
+   "Renovated 2019",
+   "Village centre",
+   "Storage loft"
+  ],
+  "floorPlan": [
+   {
+    "label": "Main level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 6.97,
+      "h": 3.42
+     },
+     {
+      "name": "Dining",
+      "x": 6.97,
+      "y": 0,
+      "w": 3.49,
+      "h": 3.42
+     },
+     {
+      "name": "Bathroom",
+      "x": 10.46,
+      "y": 0,
+      "w": 1.74,
+      "h": 3.42
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 3.42,
+      "w": 4.42,
+      "h": 3.78
+     },
+     {
+      "name": "Kitchen",
+      "x": 4.42,
+      "y": 3.42,
+      "w": 3.16,
+      "h": 3.78
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 7.58,
+      "y": 3.42,
+      "w": 3.16,
+      "h": 3.78
+     },
+     {
+      "name": "Entry",
+      "x": 10.74,
+      "y": 3.42,
+      "w": 1.46,
+      "h": 3.78
+     }
+    ]
+   }
+  ],
+  "mapX": 47.5,
+  "mapY": 20.5,
+  "agentId": 4,
+  "agent": {
+   "id": 4,
+   "slug": "julien-ferro",
+   "name": "Julien Ferro",
+   "role": "Agent, Hill Towns",
+   "phone": "+00 41 555 0104",
+   "email": "julien.ferro@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 41,
+    "url": "/uploads/properties/old-town-street.jpg",
+    "alt": "Narrow old-town street with balconies and plants",
+    "credit": "Photo: Roman Kraft / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 42,
+    "url": "/uploads/properties/lemon-kitchen.jpg",
+    "alt": "White-tiled kitchen worktop with a bowl of lemons",
+    "credit": "Photo: Matthew Henry / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 43,
+    "url": "/uploads/properties/white-living-room.jpg",
+    "alt": "Simple white living room with a grey sofa",
+    "credit": "Photo: Breather / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "slug": "attico-faro",
+  "title": "Attico Faro",
+  "town": "Capo Lume",
+  "district": "Faro",
+  "type": "penthouse",
+  "status": "sale",
+  "price": 2450000,
+  "pricePeriod": "total",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "areaSqm": 188,
+  "featured": false,
+  "published": true,
+  "modelVariant": null,
+  "agentName": null,
+  "coverImage": {
+   "id": 55,
+   "url": "/uploads/properties/angled-glazing.jpg",
+   "alt": "Facade of angled glass panels",
+   "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+   "sortOrder": 0
+  },
+  "createdAt": "2026-08-12T15:11:54Z",
+  "updatedAt": "2026-08-12T15:11:54Z",
+  "summary": "A top-floor penthouse with angled glazing that frames the lighthouse, a corner principal suite and a rooftop terrace.",
+  "description": "Attico Faro crowns a small building of six apartments in the Faro quarter. Its facade of angled glass panels turns each window slightly towards the lighthouse and the open sea.\n\nThe living room has a corner sofa arranged around the view; the principal bedroom takes the opposite corner with windows on two sides. A private stair leads to a rooftop terrace with an outdoor shower.\n\nTwo parking spaces and a storage room are included.",
+  "plotSqm": null,
+  "yearBuilt": 2020,
+  "energyRating": "A",
+  "amenities": [
+   "Rooftop terrace",
+   "Lighthouse views",
+   "Angled glazing",
+   "Outdoor shower",
+   "Two parking spaces",
+   "Storage room"
+  ],
+  "floorPlan": [
+   {
+    "label": "Penthouse level",
+    "rooms": [
+     {
+      "name": "Living",
+      "x": 0,
+      "y": 0,
+      "w": 8.01,
+      "h": 5.29
+     },
+     {
+      "name": "Dining",
+      "x": 8.01,
+      "y": 0,
+      "w": 4.01,
+      "h": 5.29
+     },
+     {
+      "name": "Bedroom 3",
+      "x": 12.02,
+      "y": 0,
+      "w": 4.01,
+      "h": 5.29
+     },
+     {
+      "name": "Entry",
+      "x": 16.03,
+      "y": 0,
+      "w": 1.87,
+      "h": 5.29
+     },
+     {
+      "name": "Principal bedroom",
+      "x": 0,
+      "y": 5.29,
+      "w": 5.7,
+      "h": 5.21
+     },
+     {
+      "name": "Kitchen",
+      "x": 5.7,
+      "y": 5.29,
+      "w": 4.07,
+      "h": 5.21
+     },
+     {
+      "name": "Bedroom 2",
+      "x": 9.77,
+      "y": 5.29,
+      "w": 4.07,
+      "h": 5.21
+     },
+     {
+      "name": "Bathroom",
+      "x": 13.84,
+      "y": 5.29,
+      "w": 2.03,
+      "h": 5.21
+     },
+     {
+      "name": "Bath 2",
+      "x": 15.87,
+      "y": 5.29,
+      "w": 2.03,
+      "h": 5.21
+     }
+    ]
+   }
+  ],
+  "mapX": 74,
+  "mapY": 66.5,
+  "agentId": 1,
+  "agent": {
+   "id": 1,
+   "slug": "elena-varo",
+   "name": "Elena Varo",
+   "role": "Founding Partner",
+   "phone": "+00 41 555 0101",
+   "email": "elena.varo@velora-demo.test",
+   "photoUrl": null
+  },
+  "images": [
+   {
+    "id": 55,
+    "url": "/uploads/properties/angled-glazing.jpg",
+    "alt": "Facade of angled glass panels",
+    "credit": "Photo: The Building Envelope / StockSnap (CC0)",
+    "sortOrder": 0
+   },
+   {
+    "id": 56,
+    "url": "/uploads/properties/grey-sofa-lounge.jpg",
+    "alt": "Living room with a tufted grey sofa",
+    "credit": "Photo: Nathan Fertig / StockSnap (CC0)",
+    "sortOrder": 1
+   },
+   {
+    "id": 57,
+    "url": "/uploads/properties/corner-bedroom.jpg",
+    "alt": "Corner bedroom with windows on two sides",
+    "credit": "Photo: Dahl House Design / StockSnap (CC0)",
+    "sortOrder": 2
+   }
+  ]
+ }
+]

@@ -1,0 +1,123 @@
+[
+ {
+  "id": 1,
+  "slug": "elena-varo",
+  "name": "Elena Varo",
+  "role": "Founding Partner",
+  "phone": "+00 41 555 0101",
+  "email": "elena.varo@velora-demo.test",
+  "photoUrl": null,
+  "bio": "Elena trained as an architect before moving into sales, and still reads every listing as a set of drawings first. She handles Velora's cliff-top villas and new-build commissions along the Capo Lume headland.",
+  "languages": [
+   "English",
+   "Italian",
+   "French"
+  ],
+  "areas": [
+   "Capo Lume",
+   "Marevento"
+  ],
+  "listingCount": 3
+ },
+ {
+  "id": 2,
+  "slug": "matteo-lind",
+  "name": "Matteo Lind",
+  "role": "Senior Agent, Coastal Homes",
+  "phone": "+00 41 555 0102",
+  "email": "matteo.lind@velora-demo.test",
+  "photoUrl": null,
+  "bio": "Matteo grew up in Portalba's harbour quarter and knows which terraces catch the evening sun. He specialises in sea-view apartments and penthouses for buyers relocating to the coast.",
+  "languages": [
+   "English",
+   "Italian",
+   "Swedish"
+  ],
+  "areas": [
+   "Portalba",
+   "Riva Celeste"
+  ],
+  "listingCount": 2
+ },
+ {
+  "id": 3,
+  "slug": "sofia-arnaud",
+  "name": "Sofia Arnaud",
+  "role": "Lettings Director",
+  "phone": "+00 41 555 0103",
+  "email": "sofia.arnaud@velora-demo.test",
+  "photoUrl": null,
+  "bio": "Sofia runs Velora's lettings desk, from seasonal villa rentals to long-term apartment leases. She is known for clear contracts and for answering every enquiry the same day.",
+  "languages": [
+   "English",
+   "French",
+   "Spanish"
+  ],
+  "areas": [
+   "Marevento",
+   "Portalba",
+   "Riva Celeste"
+  ],
+  "listingCount": 3
+ },
+ {
+  "id": 4,
+  "slug": "julien-ferro",
+  "name": "Julien Ferro",
+  "role": "Agent, Hill Towns",
+  "phone": "+00 41 555 0104",
+  "email": "julien.ferro@velora-demo.test",
+  "photoUrl": null,
+  "bio": "Julien covers the stone villages inland, where restored farmhouses sit beside contemporary homes in the olive groves. He works closely with local surveyors on renovation projects.",
+  "languages": [
+   "English",
+   "Italian"
+  ],
+  "areas": [
+   "Castel Ombra",
+   "Valdorsa"
+  ],
+  "listingCount": 3
+ },
+ {
+  "id": 5,
+  "slug": "amara-okafor",
+  "name": "Amara Okafor",
+  "role": "Agent, New Developments",
+  "phone": "+00 41 555 0105",
+  "email": "amara.okafor@velora-demo.test",
+  "photoUrl": null,
+  "bio": "Amara advises buyers on off-plan and recently completed homes, translating specifications and energy ratings into plain language. She manages Velora's apartment launches in Riva Celeste.",
+  "languages": [
+   "English",
+   "Portuguese",
+   "Italian"
+  ],
+  "areas": [
+   "Riva Celeste",
+   "Marevento"
+  ],
+  "listingCount": 3
+ },
+ {
+  "id": 6,
+  "slug": "luca-benedetti",
+  "name": "Luca Benedetti",
+  "role": "Agent, Private Clients",
+  "phone": "+00 41 555 0106",
+  "email": "luca.benedetti@velora-demo.test",
+  "photoUrl": null,
+  "bio": "Luca handles discreet sales and viewings for private clients, often arranged around a single weekend visit. He coordinates with lawyers and notaries from first viewing to completion.",
+  "languages": [
+   "English",
+   "Italian",
+   "German"
+  ],
+  "areas": [
+   "Capo Lume",
+   "Castel Ombra",
+   "Valdorsa"
+  ],
+  "listingCount": 3
+ }
+]
